@@ -42,41 +42,36 @@
     <div class="container d-flex justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.html">Maxim</a></h1>
+        <h1><a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
-
+      <!-- .navbar -->
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
-          <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto " href="#pricing">Costos</a></li>
-          <li><a class="nav-link scrollto" href="#team">Nuestros equipo</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto active" href="index.html#hero
+            ">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">Nosotros</a></li>
+          <li><a class="nav-link scrollto" href="index.html#steps">Por qué elegirnos?</a></li>
+          <li><a class="nav-link scrollto" href="index.html#features">Dónde operamos?</a></li>
+          <li class="dropdown"><a class="nav-link scrollto" href="index.html#services"><span>Servicios</span>
+            <i class="bi bi-chevron-down"></i></a>            
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+              <li><a href="tienda.html">Tienda ecommerce</a></li>
+              <li><a href="#">Cobranzas</a></li>
+              <li><a href="#">Envíos</a></li>
+              <li><a href="#">Call Center</a></li>
+              <li><a href="#">Fulfillment</a></li>
+            </ul></li>
+          <li><a class="nav-link scrollto" href="index.html#pricing">Planes</a></li>
+          <li><a class="nav-link scrollto" href="index.html#faq">FAQ</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contacto</a></li>
+          <li><a class="nav-link scrollto" id="registro" href="https://simplitienda.com.ar/register">Registrate</a></li>
+          <li><a class="nav-link scrollto ingreso" id="ingreso" href="https://simplitienda.com.ar/login">INGRESAR</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+      </nav>
+      <!-- .navbar -->
     </div>
   </header><!-- End Header -->
 
@@ -97,7 +92,7 @@
 
         <div class="row">
           <div class="col-xl-6 col-lg-7" data-aos="fade-right">
-            <img src="assets/img/about-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/about-img.jpg" class="img-fluid" alt="Foto nosotros">
           </div>
           <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
             <h3 data-aos="fade-up">Todo en un solo lugar</h3>
@@ -105,19 +100,19 @@
               Registrate ya mismo y empezá a potenciar tus ventas!
             </p>
             <div class="icon-box" data-aos="fade-up">
-              <i class="bx bxs-shopping-bag"></i>
+              <img class="acerca" src="assets/img/bolsacompra.png" alt="bolsacompra">
               <h4>Vendé desde nuestra plataforma</h4>
               <p>Cargá los productos así tus clientes podrán conocer todo lo que tenés para ofrecerles y empezá a vender.</p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bxs-dollar-circle"></i>
+              <img class="acerca" src="assets/img/dinero.png" alt="dinero">
               <h4>Cobranzas</h4>
               <p>Tus clientes te pueden pagar en efectivo, con tarjeta o Mercadopago. Todo en un solo lugar.</p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bxs-truck"></i>
+              <img class="acerca" src="assets/img/camion.png" alt="camion">
               <h4>No te preocupes más por los envíos!</h4>
               <p>Nosotros hacemos la entrega en todo CABA y Gran Buenos Aires. Pasamos a retirar tus productos y los entregamos a tus clientes en 24hs.</p>
               <p>También podés despachar por Correo Argentino tus envíos a todo el país.</p>
@@ -133,42 +128,42 @@
     <section id="steps" class="steps section-bg">
       <div class="container">
 
-        <div class="row no-gutters">
+        <div class="row no-gutters pasos1">
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
-            <span>01</span>
-            <h4>Lorem Ipsum</h4>
-            <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+            <span><i class="pasos bx bxs-zap"></i></span>
+            <h4>Rápido</h4>
+            <p>1°- Registrate y armá facilmente tu tienda para tenerla funcionando en instántes.</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="100">
-            <span>02</span>
-            <h4>Repellat Nihil</h4>
-            <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+            <span><i class="pasos bx bx-like"></i></span>
+            <h4>Simple</h4>
+            <p>2°- Cargá tus productos de manera rápida y administrá eficientemente tu inventario y el precio de tus productos.</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="200">
-            <span>03</span>
-            <h4> Ad ad velit qui</h4>
-            <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+            <span><i class="pasos bx bx-link"></i></span>
+            <h4> Integrador</h4>
+            <p>3°- Empezá a vender !!! Tu ecommerce es sencillo, fácil de usar y se encuentra listo para quedar funcionando.</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="300">
-            <span>04</span>
-            <h4>Repellendus molestiae</h4>
-            <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
+            <span><i class="pasos bx bxs-store"></i></span>
+            <h4>Sin moverte del local</h4>
+            <p>4°- Nuestro equipo de logística retira los pedidos en tu local para que puedas ofrecer entregas en el día.</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="400">
-            <span>05</span>
-            <h4>Sapiente Magnam</h4>
-            <p>Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam</p>
+            <span><i class="pasos bx bxs-coin-stack"></i></span>
+            <h4>Controlá tus ingresos</h4>
+            <p>5°- Un sencillo informe te permite ver todas tus ventas y cobranzas. La cobranza se acredita en tu cuenta al instante de realizada a la compra.</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="500">
-            <span>06</span>
-            <h4>Facilis Impedit</h4>
-            <p>Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae voluptatibus corporis sequi</p>
+            <span><i class="pasos bx bxs-navigation"></i></span>
+            <h4>Seguimiento de envíos</h4>
+            <p>6°- En un simple visualizador podrás hacer el seguimiento y ver el historial de todos tus envíos en sus diferentes opciones.</p>
           </div>
 
         </div>
@@ -185,52 +180,52 @@
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
                 <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-                  <h4>Modi sit est</h4>
-                  <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
+                  <h4>Tienda full hasta las 14 hs</h4>
+                  <p>Tenemos la logística preparada para que puedas aprovechar el día al máximo.</p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-                  <h4>Unde praesentium sed</h4>
-                  <p>Voluptas vel esse repudiandae quo excepturi.</p>
+                  <h4>Entregas en el día en todo el AMBA</h4>
+                  <p>Llegamos a todos los rincones del AMBA para que vendas sin reestricciones geográficas.</p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-                  <h4>Pariatur explicabo vel</h4>
-                  <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
+                  <h4>Envíos a través de Correo Argentino</h4>
+                  <p>Brindamos una solución eficiente para que tu emprendimiento se beneficie y puedas expandite a todo el país.</p>
                 </a>
               </li>
-              <li class="nav-item mt-2">
+              <!-- <li class="nav-item mt-2">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
                   <h4>Nostrum qui quasi</h4>
                   <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </div>
           <div class="col-lg-7 ml-auto" data-aos="fade-left">
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
                 <figure>
-                  <img src="assets/img/features-1.png" alt="" class="img-fluid">
+                  <img src="assets/img/features-1.png" alt="" class="img-features">
                 </figure>
               </div>
               <div class="tab-pane" id="tab-2">
                 <figure>
-                  <img src="assets/img/features-2.png" alt="" class="img-fluid">
+                  <img src="assets/img/features-2.png" alt="" class="img-features">
                 </figure>
               </div>
               <div class="tab-pane" id="tab-3">
                 <figure>
-                  <img src="assets/img/features-3.png" alt="" class="img-fluid">
+                  <img src="assets/img/features-3.png" alt="" class="img-features2">
                 </figure>
               </div>
-              <div class="tab-pane" id="tab-4">
+              <!-- <div class="tab-pane" id="tab-4">
                 <figure>
-                  <img src="assets/img/features-4.png" alt="" class="img-fluid">
+                  <img src="assets/img/features-4.png" alt="" class="img-features">
                 </figure>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -243,40 +238,50 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Servicios</h2>
+          <p>Somos un emprendimiento familiar con gran trayectoria en ventas online desde distintos rubros. Nos ha motivado generar este proyecto la gran dificultad que los emprendedores solemos tener a la hora de conseguir una plataforma para exponer nuestros productos y conseguir personal idóneo para realizar los repartos de nuestras ventas. Queríamos que todos los emprendedores que recién se inicien en las ventas online tengan ese espacio simplificado, sin necesidad de tener cocndiciones por cantidad de ventas o reputación para poder ofrecer envíos en el día, todo desde una misma plataforma.</p>
+          
         </div>
 
         <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+          <div class="col-md-6 col-lg-3 col-md-15 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
             <div class="icon-box icon-box-pink">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
+              <div class="icon"><i class="bx bx-cart"></i></div>
+              <h4 class="title"><a href="tienda.html">Tienda ecommerce</a></h4>
+              <p class="description">Desarrollamos un software simple, para que no tengas que perder tiempo en gestiones y administraciones tediosas. La carga de productos se hace de manera sencilla y te permite mantener el stock de tu mercadería al día.</p>
             </div>
+
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-6 col-lg-3 col-md-15 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box icon-box-cyan">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+              <div class="icon"><i class="bx bx-wallet"></i></div>
+              <h4 class="title"><a href="">Cobranzas</a></h4>
+              <p class="description">Integramos las cobranzas para que puedas ofrecer todos los medios de pago y puedas llegar al público cuando te estás haciendo conocer. </p>
+
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-md-6 col-lg-3 col-md-15 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-magenta">
+              <div class="icon"><i class="bx bx-cycling"></i></div>
+              <h4 class="title"><a href="">Envíos</a></h4>
+              <p class="description">Retiramos los pedidos de tu domicilio y llevamos tu ventas a todo el país. Podrás hacer envíos en el día y tu cliente podrá tener precios super accesibles para obtener su mercadería de forma rápida y segura. </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 col-md-15 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box icon-box-green">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
+              <div class="icon"><i class="bx bxs-phone"></i></div>
+              <h4 class="title"><a href="">Call Center</a></h4>
+              <p class="description">Estamos disponibles todo el día con atención personalizada para poder ayudarte cuando lo necesites. Brindamos un canal de comunicación directo y rápido a través de nuestro WhatsApp.</p>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-md-6 col-lg-3 col-md-15 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box icon-box-blue">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+              <div class="icon"><i class="bx bxs-save"></i></div>
+              <h4 class="title"><a href="">Fulfillment</a></h4>
+              <p class="description">Ofrecemos la posibilidad de almacenar tu mercadería para que también te olvides de tener que estar preparando los pedidos y puedas dedicarte a vender y pensar en tu negocio.</p>
             </div>
           </div>
 
@@ -285,294 +290,60 @@
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container">
+        <!-- ======= Pricing Section ======= -->
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
  <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Planes</h2>
+          <p>La solución que estabas necesitando. Nuestro objetivo como servicio es poder ofrecer una plataforma que agilice y complemente a todos los emprendedores y pymes que deseen unificar un medio de exposición, cobro y envíos a todo el AMBA y a todo el país. </p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="box">
-              <h3>Free Plan</h3>
-              <h4><sup>$</sup>0<span>per month</span></h4>
+              <h3>Plan Gratuito</h3>
+              <h4><sup>$</sup>0<span> mensual</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                <li><i class="bx bx-check"></i> Cantidad de productos: 20</li>
+                <li><i class="bx bx-check"></i> Comisión por venta: 0%</li>
+                <li><i class="bx bx-check"></i> Integración MercadoEnvíos flex</li>
+                <li class="na"><i class="bx bx-x"></i> <span>Promociones y descuentos</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>Anuncios en redes sociales y MercadoLibre</span></li>
               </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+              <!-- <a href="https://simplitienda.com.ar/register" class="buy-btn">Empezar ya!</a> -->
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="box featured">
-              <h3>Business Plan</h3>
-              <h4><sup>$</sup>29<span>per month</span></h4>
+              <h3>Plan Básico</h3>
+              <h4><sup>$</sup>499<span> mensual</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="bx bx-check"></i> Cantidad de productos: 50</li>
+                <li><i class="bx bx-check"></i> Comisión por venta: 2%</li>
+                <li><i class="bx bx-check"></i> Integración MercadoEnvíos flex</li>
+                <li><i class="bx bx-check"></i> Promociones y descuentos</li>
+                <li><i class="bx bx-x"></i> Anuncios en redes sociales y MercadoLibre</li>
               </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+              <!-- <a href="https://simplitienda.com.ar/register" class="buy-btn">Empezar ya!</a> -->
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
-              <h3>Developer Plan</h3>
-              <h4><sup>$</sup>49<span>per month</span></h4>
+              <h3>Plan Full</h3>
+              <h4><sup>$</sup>1499<span> mensual</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="bx bx-check"></i> Cantidad de productos ilimitada</li>
+                <li><i class="bx bx-check"></i> Comisión por venta: 5%</li>
+                <li><i class="bx bx-check"></i> Integración MercadoEnvíos flex</li>
+                <li><i class="bx bx-check"></i> Promociones y descuentos</li>
+                <li><i class="bx bx-check"></i> Anuncios en redes sociales y MercadoLibre</li>
               </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+              <!-- <a href="https://simplitienda.com.ar/register" class="buy-btn">Empezar ya!</a> -->
             </div>
           </div>
 
@@ -581,146 +352,58 @@
       </div>
     </section><!-- End Pricing Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
-            <div class="member">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
     <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>F.A.Q</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Preguntas Frecuentes</h2>
+          <p>Brindamos atención humana y personalizada para que puedas hacer todas tus consultas. Una vez que obtienes tu Simplitienda nuestros ejecutivos de cuenta se encargarán de estar siempre disponibles para poder solucionar cualquier inconveniente o inquietud.</p>
         </div>
 
         <div class="faq-list">
           <ul>
             <li data-aos="fade-up">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-1" class="collapse" >Cómo hacen las personas para comprar en mi tienda? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                 <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  Podrás promocionar tu dominio web en todas las redes sociales y en dónde lo desees. El mismo será www.simplitienda.com.ar/tuusuario. Te asesoramos en herramientas y consejos de marketing para que puedas implementarlo.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Necesito una computadora para poder administrar mi tienda? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  No, podés hacer absolutamente todo desde el celular. Todo el desarrollo fue pensado para favorecer a los emprendedores para que puedan escalar el negocio utilizando la menor cantidad de recursos posibles. 
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Necesito tener cuenta bancaria y/o tarjeta de crédito? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  No tenés que brindarnos ningún dato de tus cuentas o tarjetas para probar tu Simplitienda. Podés ofrecer pago en efectivo a tus clientes. Para ofrecer pago con tarjetas y MercadoPago sólo tendrás que cargar tu alias de MercadoPago para que el dinero de tus ventas se deposite directamente en tu cuenta.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Cuál es el plan que más me conviene? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                  Podés comunicarte con nosotros para contarnos de tu emprendimiento y veamos cuál es el plan más indicado para comenzar tu Simplitienda. Pero no pierdas el tiempo puedes empezar ahora con el que te parezca de primer momento y modificarlo cuando necesites.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Puedo suspender la contratación del servicio cuando lo desee? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                  Puedes activar y desactivar tu Simplitienda cuando lo desees, todas las veces necesarias, sin ningún costo adicional ni ningún tipo de represalia.
                 </p>
               </div>
             </li>
@@ -736,8 +419,8 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Contacto</h2>
+          <p>Tenemos la ubicación perfecta para llegar a todo el AMBA a retirar y entregar tus pedidos.</p>
         </div>
 
         <div class="row no-gutters justify-content-center" data-aos="fade-up">
@@ -746,20 +429,20 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4>Ubicación:</h4>
+                <p>Aviador José María Carosella 1242, El Palomar, Buenos Aires, Argentina</p>
               </div>
 
               <div class="email mt-4">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>info@simplitienda.com.ar</p>
               </div>
 
               <div class="phone mt-4">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>011 5235 3519</p>
               </div>
 
             </div>
@@ -767,7 +450,7 @@
           </div>
 
           <div class="col-lg-5 d-flex align-items-stretch">
-            <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.491465284283!2d-58.60173318502663!3d-34.61701866570855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb85f7ae38da5%3A0x170d5e822496e75b!2sAviador%20Jos%C3%A9%20Mar%C3%ADa%20Carosella%201242%2C%20El%20Palomar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1643379895300!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
 
         </div>
@@ -777,24 +460,24 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
+                <div class="loading">Cargando</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Su mensaje ha sido enviado. Responderemos a la brevedad. Gracias!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
             </form>
           </div>
 
@@ -813,53 +496,53 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Maxim</h3>
+              <h3>Simplitienda</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                Aviador José María Carosella 1242 <br>
+                El Palomar, Bs.As.<br><br>
+                <strong>Phone:</strong> 011 5235 3519<br>
+                <strong>Email:</strong> info@simplitienda.com.ar<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Principales</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="index.html#hero">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="index.html#about">Nosotros</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="index.html#services">Servicios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="index.html#faq">Preguntas frecuentes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="index.html#contact">Contacto</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Más contenido</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="index.html#steps">Por qué elegrinos?</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="index.html#features">Dónde operamos?</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="index.html#pricing">Planes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://simplitienda.com.ar/register">Registrarse</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://simplitienda.com.ar/login">Ingresar a tu Simplitienda</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
 
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -867,7 +550,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Maxim</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Simplitienda</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
