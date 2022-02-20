@@ -1463,6 +1463,46 @@ a#ingreso:hover {
     float: left;
   }
 }
-#servicetienda{
+#service1, #service2, #service3, #service4, #service5{
   margin-top: 40px;
+}
+.conocemas{
+  right: 10px;
+  position:absolute;
+  bottom:0;
+  color: #db6400;
+}
+.services .icon-box {
+  padding: 30px 15px 50px 15px;
+  height:100%;
+}
+.icono{
+  position: absolute;
+  left:0;
+  padding: 0 0 0 40px;
+}
+.descservice{
+  margin-left: 100px;
+  text-align: left;
+}
+.col-lg-12{
+  margin-top: 15px;
+  width: 100%;
+}
+.row-cols-2{
+  width: 100%;
+}
+
+.servicios .icon-box{
+  opacity: 0.95;
+}
+.servicios .icon-box:hover {
+  box-shadow:none;
+}
+#service1{
+  background: url("../img/Untitled-4.jpg") center center;
+  background-size:contain;
+}
+.servicios .section-title{
+  width: 100%;
 }
