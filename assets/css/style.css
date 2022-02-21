@@ -336,7 +336,6 @@ h6 {
   width: 100%;
   height: calc(100vh - 70px);
   background: url("../img/hero-bg.jpg") center center;
-  background-size: cover;
   position: relative;
   margin-top: 70px;
   padding: 0;
@@ -1492,17 +1491,54 @@ a#ingreso:hover {
 .row-cols-2{
   width: 100%;
 }
-
-.servicios .icon-box{
-  opacity: 0.95;
-}
 .servicios .icon-box:hover {
   box-shadow:none;
 }
-#service1{
-  background: url("../img/Untitled-4.jpg") center center;
-  background-size:contain;
+.servicios .icon-box{
+  background-color: transparent;
+  border-bottom: none;
 }
-.servicios .section-title{
+.servicios:before {
+  content: "";
+  background: #ffffff;
+  position: absolute;
+  opacity: 0.7;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#service1{
   width: 100%;
+  background: url("../img/Untitled-4.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+#service2{
+  width: 100%;
+  background: url("../img/features-3\ original.png") center center;
+  background-size: cover;
+  position: relative;
+}
+#service3{
+  width: 100%;
+  background: url("../img/istockphoto-959197580-612x612.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+#service4{
+  width: 100%;
+  background: url("../img/features-2\ original.png") center center;
+  background-size: cover;
+  position: relative;
+}
+#service5{
+  width: 100%;
+  background: url("../img/istockphoto-1276774543-612x612.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+.about .img-fluid{
+  height: 80%;
+  margin-top: 10%;
 }
