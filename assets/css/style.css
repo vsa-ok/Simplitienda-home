@@ -342,7 +342,7 @@ h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0,0,0, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1482,7 +1482,7 @@ a#ingreso:hover {
 }
 .descservice{
   margin-left: 100px;
-  text-align: left;
+  text-align:center;
 }
 .col-lg-12{
   margin-top: 15px;
@@ -1502,7 +1502,7 @@ a#ingreso:hover {
   content: "";
   background: #ffffff;
   position: absolute;
-  opacity: 0.7;
+  opacity: 0.9;
   bottom: 0;
   top: 0;
   left: 0;
