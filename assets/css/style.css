@@ -339,6 +339,7 @@ h6 {
   position: relative;
   margin-top: 70px;
   padding: 0;
+  background-size: cover;
 }
 #hero:before {
   content: "";
@@ -378,8 +379,8 @@ h6 {
   color: #fff;
 }
 #hero .btn-get-started:hover {
-  border-color: #1bac91;
-  background: #1bac91;
+  border-color: magenta;
+  background: #11515e;
 }
 @media (min-width: 1024px) {
   #hero {
