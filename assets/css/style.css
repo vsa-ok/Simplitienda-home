@@ -950,7 +950,7 @@ section {
 #footer .footer-top .footer-links ul li {
   padding: 10px 0;
   display: flex;
-  align-items: center;
+  align-items:center;
 }
 #footer .footer-top .footer-links ul li:first-child {
   padding-top: 0;
@@ -964,35 +964,6 @@ section {
 #footer .footer-top .footer-links ul a:hover {
   color: #34dfbf;
 }
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px 0 0 4px;
-}
-#footer .footer-top .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-#footer .footer-top .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: -4px;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #1bac91;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-}
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #14806c;
-}
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
@@ -1003,6 +974,7 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
 /*--------------------------------------------------------------
 # Adicionales y modificaciones
 --------------------------------------------------------------*/
@@ -1026,6 +998,10 @@ a#ingreso:hover {
 .navbar li:hover > a:before {
   visibility: visible;
   width: 0%;
+}
+.about .img-fluid{
+  height: 80%;
+  margin-top: 10%;
 }
 .img-features {
   max-width: 60%;
@@ -1062,45 +1038,13 @@ a#ingreso:hover {
   height: auto;
   margin-top: -10%;
 }
-@media (max-width: 768px) {
-  .img-features {
-    max-width: 90%;
-    height: auto;
-    margin-left: 5%;
-  }
-}
-.col-xs-15,
-.col-sm-15,
-.col-md-15,
-.col-lg-15
-{
+.col-md-15{
   position: relative;
   min-height: 1px; 
-}
-.col-xs-15
-{
-  width: 20%;
-  float: left;
-}
-@media (min-width: 768px)
-{
-  .col-sm-15
-  {
-    width: 20%;
-    float: left;
-  }
 }
 @media (min-width: 992px)
 {
   .col-md-15
-  {
-    width: 20%;
-    float: left;
-  }
-}
-@media (min-width: 1200px)
-{
-  .col-lg-15
   {
     width: 20%;
     float: left;
@@ -1139,56 +1083,40 @@ a#ingreso:hover {
   box-shadow:none;
 }
 .servicios .icon-box{
-  background-color: transparent;
-  border-bottom: none;
+  border-style:solid;
+  border-width: 1.5px;
 }
-.servicios:before {
-  content: "";
-  background: #ffffff;
-  position: absolute;
-  opacity: 0.9;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+.footer-links{
+  min-width: 30%;
 }
-/* #service1{
-  width: 100%;
-  background: url("../img/Untitled-4.jpg") center center;
-  background-size: cover;
-  position: relative;
+.col-lg-4{
+  margin-bottom: 25px;
 }
-#service2{
-  width: 100%;
-  background: url("../img/features-3\ original.png") center center;
-  background-size: cover;
-  position: relative;
+@media (max-width: 768px)
+{
+  .col-lg-4
+  {
+    width: 100%;
+    float: left;
+  }
 }
-#service3{
-  width: 100%;
-  background: url("../img/istockphoto-959197580-612x612.jpg") center center;
-  background-size: cover;
-  position: relative;
+#service1 .icon-box{
+  background-color: rgba(255, 192, 203, 0.05);
+  border-color: hsl(350, 100%, 25%);
 }
-#service4{
-  width: 100%;
-  background: url("../img/features-2\ original.png") center center;
-  background-size: cover;
-  position: relative;
+#service2 .icon-box{
+  background-color: rgba(0, 255, 255, 0.01);
+  border-color: hsl(180, 100%, 25%);
 }
-#service5{
-  width: 100%;
-  background: url("../img/istockphoto-1276774543-612x612.jpg") center center;
-  background-size: cover;
-  position: relative;
-} */
-.about .img-fluid{
-  height: 80%;
-  margin-top: 10%;
+#service3 .icon-box{
+  background-color: rgba(255, 0, 255, 0.02);
+  border-color: hsl(300, 100%, 25%);
 }
-/* #footer .footer-links {
-  margin-left: 10%;
+#service4 .icon-box{
+  background-color: rgba(0, 128, 0, 0.01);
+  border-color: hsl(120, 100%, 25%);
 }
-#footer .footer-info {
-  margin-left: 10%;
-} */
+#service5 .icon-box{
+  background-color: rgba(0, 0, 255, 0.01);
+  border-color: hsl(240, 100%, 25%);
+}
