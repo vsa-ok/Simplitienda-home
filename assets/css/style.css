@@ -1004,15 +1004,6 @@ a#ingreso:hover {
   height: 80%;
   margin-top: 10%;
 }
-.img-features {
-  max-width: 90%;
-  height: auto;
-}
-@media (max-width: 768px) {
-  .img-features {
-    margin-left: 5%;
-  }
-}
 .pasos {
   margin-left: 40%;
   font-size: 40px;
@@ -1038,7 +1029,7 @@ a#ingreso:hover {
   }
 }
 #service1, #service2, #service3, #service4, #service5{
-  margin-top: 40px;
+  margin-top: 80px;
 }
 .conocemas{
   right: 10px;
@@ -1114,6 +1105,9 @@ a#ingreso:hover {
 #service5 .icon-box{
   background-color: rgba(0, 0, 255, 0.01);
   border-color: hsl(240, 100%, 25%);
+}
+.features iframe{
+  max-width: 100%;
 }
 /*--------------------------------------------------------------
 # Tabla precios
