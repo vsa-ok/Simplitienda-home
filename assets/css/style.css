@@ -1066,10 +1066,9 @@ a#ingreso:hover {
 .icono{
   position: absolute;
   left:0;
-  padding: 0 0 0 40px;
+  padding: 5px 0 0 40px;
 }
 .descservice{
-  margin-left: 100px;
   text-align:center;
 }
 .col-lg-12{
@@ -1085,6 +1084,7 @@ a#ingreso:hover {
 .servicios .icon-box{
   border-style:solid;
   border-width: 1.5px;
+  margin: 0;
 }
 .footer-links{
   min-width: 30%;
@@ -1099,6 +1099,14 @@ a#ingreso:hover {
     width: 100%;
     float: left;
   }
+}
+.servicios h3{
+  padding-top: 10px;
+  margin-left: 80px;
+  margin-right: 30px;
+}
+.servicios p{
+  padding-top: 15px;
 }
 #service1 .icon-box{
   background-color: rgba(255, 192, 203, 0.05);
