@@ -583,7 +583,7 @@
 --------------------------------------------------------------*/
     
     .steps {
-      padding: 50px 0 40px 0;
+      padding: 20px 0 40px 0;
     }
     
     .steps .row {
@@ -1143,8 +1143,7 @@
     }
     
     .about .img-fluid {
-      height: 80%;
-      margin-top: 10%;
+      height: 90%;
     }
     
     .pasos {
