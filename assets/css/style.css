@@ -437,9 +437,11 @@
     }
     
     @media (max-width: 992px) {
+      
       #hero {
         margin-top: 60px;
         height: calc(100vh - 60px);
+        background: url(../img/hero-bg.png) 90%;
       }
     }
     
@@ -613,7 +615,7 @@
     }
     
     .steps .content-item p {
-      color: #aaaaaa;
+      color: #6E6E6E;
       font-size: 15px;
       margin: 0;
       padding: 0;
@@ -1278,6 +1280,11 @@
     .info i:hover{
       background-color: #22d8b6;
     }
+    .hero-text{
+      background: #141c5cbf;
+      max-width: 42em;
+    }
+    
     /*--------------------------------------------------------------
 # Tabla precios
 --------------------------------------------------------------*/
