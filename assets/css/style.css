@@ -376,7 +376,7 @@
     #hero {
       max-width: 100%;
       height: calc(100vh - 70px);
-      background: url("../img/hero-bg.jpg") center center;
+      background: url("../img/hero-bg.png") center center;
       position: relative;
       margin-top: 70px;
       padding: 0;
