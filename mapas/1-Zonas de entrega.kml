@@ -139,49 +139,7 @@
       <name>Ubicación</name>
       <Placemark>
         <name>El Palomar</name>
-        <description><![CDATA[descripción: descripción: <br>gid: <br>entidad: <br>objeto: <br>fna: <br>gna: <br>nam: <br>in1: <br>fdc: <br>sag:<br>gid: <br>entidad: <br>objeto: <br>fna: <br>gna: <br>nam: <br>in1: <br>fdc: <br>sag: ]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>descripción: 
-gid: 
-entidad: 
-objeto: 
-fna: 
-gna: 
-nam: 
-in1: 
-fdc: 
-sag:</value>
-          </Data>
-          <Data name="gid">
-            <value/>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-          <Data name="objeto">
-            <value/>
-          </Data>
-          <Data name="fna">
-            <value/>
-          </Data>
-          <Data name="gna">
-            <value/>
-          </Data>
-          <Data name="nam">
-            <value/>
-          </Data>
-          <Data name="in1">
-            <value/>
-          </Data>
-          <Data name="fdc">
-            <value/>
-          </Data>
-          <Data name="sag">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Point>
           <coordinates>
             -58.59436,-34.626673,0
@@ -193,59 +151,7 @@ sag:</value>
       <name>1_Zonas_de_entregasimpli</name>
       <Placemark>
         <name>MORÓN</name>
-        <description><![CDATA[descripción: Municipio Morón<br><br>descripción: <br>gid: 131<br>objeto: Municipio<br>gna: Municipio<br>nam: Morón<br>in1: 060568<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 131<br>objeto: Municipio<br>gna: Municipio<br>nam: Morón<br>in1: 060568<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Municipio Morón
-
-descripción: 
-gid: 131
-objeto: Municipio
-gna: Municipio
-nam: Morón
-in1: 060568
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>131</value>
-          </Data>
-          <Data name="objeto">
-            <value>Municipio</value>
-          </Data>
-          <Data name="gna">
-            <value>Municipio</value>
-          </Data>
-          <Data name="nam">
-            <value>Morón</value>
-          </Data>
-          <Data name="in1">
-            <value>060568</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -280,59 +186,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>HURLINGHAM</name>
-        <description><![CDATA[descripción: Municipio Hurlingham<br><br>descripción: <br>gid: 130<br>objeto: Municipio<br>gna: Municipio<br>nam: Hurlingham<br>in1: 060408<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 130<br>objeto: Municipio<br>gna: Municipio<br>nam: Hurlingham<br>in1: 060408<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Municipio Hurlingham
-
-descripción: 
-gid: 130
-objeto: Municipio
-gna: Municipio
-nam: Hurlingham
-in1: 060408
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>130</value>
-          </Data>
-          <Data name="objeto">
-            <value>Municipio</value>
-          </Data>
-          <Data name="gna">
-            <value>Municipio</value>
-          </Data>
-          <Data name="nam">
-            <value>Hurlingham</value>
-          </Data>
-          <Data name="in1">
-            <value>060408</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -367,59 +221,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>3 DE FEBRERO</name>
-        <description><![CDATA[descripción: Municipio Tres de Febrero<br><br>descripción: <br>gid: 139<br>objeto: Municipio<br>gna: Municipio<br>nam: Tres de Febrero<br>in1: 060840<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 139<br>objeto: Municipio<br>gna: Municipio<br>nam: Tres de Febrero<br>in1: 060840<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-189</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Municipio Tres de Febrero
-
-descripción: 
-gid: 139
-objeto: Municipio
-gna: Municipio
-nam: Tres de Febrero
-in1: 060840
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>139</value>
-          </Data>
-          <Data name="objeto">
-            <value>Municipio</value>
-          </Data>
-          <Data name="gna">
-            <value>Municipio</value>
-          </Data>
-          <Data name="nam">
-            <value>Tres de Febrero</value>
-          </Data>
-          <Data name="in1">
-            <value>060840</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -447,59 +249,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>SAN MARTÍN</name>
-        <description><![CDATA[descripción: Municipio General San Martín<br><br>descripción: <br>gid: 134<br>objeto: Municipio<br>gna: Municipio<br>nam: General San Martín<br>in1: 060371<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 134<br>objeto: Municipio<br>gna: Municipio<br>nam: General San Martín<br>in1: 060371<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Municipio General San Martín
-
-descripción: 
-gid: 134
-objeto: Municipio
-gna: Municipio
-nam: General San Martín
-in1: 060371
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>134</value>
-          </Data>
-          <Data name="objeto">
-            <value>Municipio</value>
-          </Data>
-          <Data name="gna">
-            <value>Municipio</value>
-          </Data>
-          <Data name="nam">
-            <value>General San Martín</value>
-          </Data>
-          <Data name="in1">
-            <value>060371</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -532,59 +282,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>ITUZAINGÓ</name>
-        <description><![CDATA[descripción: Municipio Ituzaingó<br><br>descripción: <br>gid: 136<br>objeto: Municipio<br>gna: Municipio<br>nam: Ituzaingó<br>in1: 060410<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 136<br>objeto: Municipio<br>gna: Municipio<br>nam: Ituzaingó<br>in1: 060410<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Municipio Ituzaingó
-
-descripción: 
-gid: 136
-objeto: Municipio
-gna: Municipio
-nam: Ituzaingó
-in1: 060410
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>136</value>
-          </Data>
-          <Data name="objeto">
-            <value>Municipio</value>
-          </Data>
-          <Data name="gna">
-            <value>Municipio</value>
-          </Data>
-          <Data name="nam">
-            <value>Ituzaingó</value>
-          </Data>
-          <Data name="in1">
-            <value>060410</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -608,59 +306,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>CABA</name>
-        <description><![CDATA[descripción: Ciudad Autónoma de Buenos Aires<br><br>descripción: <br>gid: 1<br>objeto: Provincia<br>gna: Ciudad Autónoma<br>nam: Ciudad Autónoma de Buenos Aires<br>in1: 02<br>fdc: Geografía<br>sag: IGN<br>entidad: 0<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 1<br>objeto: Provincia<br>gna: Ciudad Autónoma<br>nam: Ciudad Autónoma de Buenos Aires<br>in1: 02<br>fdc: Geografía<br>sag: IGN<br>entidad: 0]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Ciudad Autónoma de Buenos Aires
-
-descripción: 
-gid: 1
-objeto: Provincia
-gna: Ciudad Autónoma
-nam: Ciudad Autónoma de Buenos Aires
-in1: 02
-fdc: Geografía
-sag: IGN
-entidad: 0</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>1</value>
-          </Data>
-          <Data name="objeto">
-            <value>Provincia</value>
-          </Data>
-          <Data name="gna">
-            <value>Ciudad Autónoma</value>
-          </Data>
-          <Data name="nam">
-            <value>Ciudad Autónoma de Buenos Aires</value>
-          </Data>
-          <Data name="in1">
-            <value>02</value>
-          </Data>
-          <Data name="fdc">
-            <value>Geografía</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value>0</value>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -755,59 +401,7 @@ entidad: 0</value>
       </Placemark>
       <Placemark>
         <name>AVELLANEDA</name>
-        <description><![CDATA[descripción: Partido de Avellaneda<br><br>descripción: <br>gid: 476<br>objeto: Departamento<br>gna: Partido<br>nam: Avellaneda<br>in1: 06035<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 476<br>objeto: Departamento<br>gna: Partido<br>nam: Avellaneda<br>in1: 06035<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Avellaneda
-
-descripción: 
-gid: 476
-objeto: Departamento
-gna: Partido
-nam: Avellaneda
-in1: 06035
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>476</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Avellaneda</value>
-          </Data>
-          <Data name="in1">
-            <value>06035</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -845,59 +439,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>QUILMES</name>
-        <description><![CDATA[descripción: Partido de Quilmes<br><br>descripción: <br>gid: 297<br>objeto: Departamento<br>gna: Partido<br>nam: Quilmes<br>in1: 06658<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 297<br>objeto: Departamento<br>gna: Partido<br>nam: Quilmes<br>in1: 06658<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-189</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Quilmes
-
-descripción: 
-gid: 297
-objeto: Departamento
-gna: Partido
-nam: Quilmes
-in1: 06658
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>297</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Quilmes</value>
-          </Data>
-          <Data name="in1">
-            <value>06658</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -930,59 +472,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>LANÚS</name>
-        <description><![CDATA[descripción: Partido de Lanús<br><br>descripción: <br>gid: 474<br>objeto: Departamento<br>gna: Partido<br>nam: Lanús<br>in1: 06434<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 474<br>objeto: Departamento<br>gna: Partido<br>nam: Lanús<br>in1: 06434<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-189</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Lanús
-
-descripción: 
-gid: 474
-objeto: Departamento
-gna: Partido
-nam: Lanús
-in1: 06434
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>474</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Lanús</value>
-          </Data>
-          <Data name="in1">
-            <value>06434</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -1015,59 +505,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>BERAZATEGUI</name>
-        <description><![CDATA[descripción: Partido de Berazategui<br><br>descripción: <br>gid: 49<br>objeto: Departamento<br>gna: Partido<br>nam: Berazategui<br>in1: 06091<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 49<br>objeto: Departamento<br>gna: Partido<br>nam: Berazategui<br>in1: 06091<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Berazategui
-
-descripción: 
-gid: 49
-objeto: Departamento
-gna: Partido
-nam: Berazategui
-in1: 06091
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>49</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Berazategui</value>
-          </Data>
-          <Data name="in1">
-            <value>06091</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -1104,59 +542,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>FLORENCIO VARELA</name>
-        <description><![CDATA[descripción: Partido de Florencio Varela<br><br>descripción: <br>gid: 291<br>objeto: Departamento<br>gna: Partido<br>nam: Florencio Varela<br>in1: 06274<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 291<br>objeto: Departamento<br>gna: Partido<br>nam: Florencio Varela<br>in1: 06274<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Florencio Varela
-
-descripción: 
-gid: 291
-objeto: Departamento
-gna: Partido
-nam: Florencio Varela
-in1: 06274
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>291</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Florencio Varela</value>
-          </Data>
-          <Data name="in1">
-            <value>06274</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -1201,59 +587,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>LOMAS DE ZAMORA</name>
-        <description><![CDATA[descripción: Partido de Lomas de Zamora<br><br>descripción: <br>gid: 475<br>objeto: Departamento<br>gna: Partido<br>nam: Lomas de Zamora<br>in1: 06490<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 475<br>objeto: Departamento<br>gna: Partido<br>nam: Lomas de Zamora<br>in1: 06490<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-189</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Lomas de Zamora
-
-descripción: 
-gid: 475
-objeto: Departamento
-gna: Partido
-nam: Lomas de Zamora
-in1: 06490
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>475</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Lomas de Zamora</value>
-          </Data>
-          <Data name="in1">
-            <value>06490</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -1288,59 +622,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>ALMIRANTE BROWN</name>
-        <description><![CDATA[descripción: Partido de Almirante Brown<br><br>descripción: <br>gid: 241<br>objeto: Departamento<br>gna: Partido<br>nam: Almirante Brown<br>in1: 06028<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 241<br>objeto: Departamento<br>gna: Partido<br>nam: Almirante Brown<br>in1: 06028<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-189</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Almirante Brown
-
-descripción: 
-gid: 241
-objeto: Departamento
-gna: Partido
-nam: Almirante Brown
-in1: 06028
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>241</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Almirante Brown</value>
-          </Data>
-          <Data name="in1">
-            <value>06028</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -1370,59 +652,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>ESTEBAN ECHEVERRÍA</name>
-        <description><![CDATA[descripción: Partido de Esteban Echeverría<br><br>descripción: <br>gid: 261<br>objeto: Departamento<br>gna: Partido<br>nam: Esteban Echeverría<br>in1: 06260<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 261<br>objeto: Departamento<br>gna: Partido<br>nam: Esteban Echeverría<br>in1: 06260<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-189</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Esteban Echeverría
-
-descripción: 
-gid: 261
-objeto: Departamento
-gna: Partido
-nam: Esteban Echeverría
-in1: 06260
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>261</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Esteban Echeverría</value>
-          </Data>
-          <Data name="in1">
-            <value>06260</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -1459,59 +689,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>EZEIZA</name>
-        <description><![CDATA[descripción: Partido de Ezeiza<br><br>descripción: <br>gid: 290<br>objeto: Departamento<br>gna: Partido<br>nam: Ezeiza<br>in1: 06270<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 290<br>objeto: Departamento<br>gna: Partido<br>nam: Ezeiza<br>in1: 06270<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-189</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Ezeiza
-
-descripción: 
-gid: 290
-objeto: Departamento
-gna: Partido
-nam: Ezeiza
-in1: 06270
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>290</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Ezeiza</value>
-          </Data>
-          <Data name="in1">
-            <value>06270</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -1596,59 +774,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>LA MATANZA</name>
-        <description><![CDATA[descripción: Municipio La Matanza<br><br>descripción: <br>gid: 75<br>objeto: Municipio<br>gna: Municipio<br>nam: La Matanza<br>in1: 060427<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 75<br>objeto: Municipio<br>gna: Municipio<br>nam: La Matanza<br>in1: 060427<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-189</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Municipio La Matanza
-
-descripción: 
-gid: 75
-objeto: Municipio
-gna: Municipio
-nam: La Matanza
-in1: 060427
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>75</value>
-          </Data>
-          <Data name="objeto">
-            <value>Municipio</value>
-          </Data>
-          <Data name="gna">
-            <value>Municipio</value>
-          </Data>
-          <Data name="nam">
-            <value>La Matanza</value>
-          </Data>
-          <Data name="in1">
-            <value>060427</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -1752,59 +878,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>MERLO</name>
-        <description><![CDATA[descripción: Partido de Merlo<br><br>descripción: <br>gid: 260<br>objeto: Departamento<br>gna: Partido<br>nam: Merlo<br>in1: 06539<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 260<br>objeto: Departamento<br>gna: Partido<br>nam: Merlo<br>in1: 06539<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Merlo
-
-descripción: 
-gid: 260
-objeto: Departamento
-gna: Partido
-nam: Merlo
-in1: 06539
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>260</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Merlo</value>
-          </Data>
-          <Data name="in1">
-            <value>06539</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -1853,59 +927,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>MORENO</name>
-        <description><![CDATA[descripción: Partido de Moreno<br><br>descripción: <br>gid: 17<br>objeto: Departamento<br>gna: Partido<br>nam: Moreno<br>in1: 06560<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 17<br>objeto: Departamento<br>gna: Partido<br>nam: Moreno<br>in1: 06560<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-189</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Moreno
-
-descripción: 
-gid: 17
-objeto: Departamento
-gna: Partido
-nam: Moreno
-in1: 06560
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>17</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Moreno</value>
-          </Data>
-          <Data name="in1">
-            <value>06560</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -1955,59 +977,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>SAN MIGUEL</name>
-        <description><![CDATA[descripción: Partido de San Miguel<br><br>descripción: <br>gid: 267<br>objeto: Departamento<br>gna: Partido<br>nam: San Miguel<br>in1: 06760<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 267<br>objeto: Departamento<br>gna: Partido<br>nam: San Miguel<br>in1: 06760<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de San Miguel
-
-descripción: 
-gid: 267
-objeto: Departamento
-gna: Partido
-nam: San Miguel
-in1: 06760
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>267</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>San Miguel</value>
-          </Data>
-          <Data name="in1">
-            <value>06760</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -2054,59 +1024,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>JOSÉ C. PAZ</name>
-        <description><![CDATA[descripción: Partido de José C. Paz<br><br>descripción: <br>gid: 13<br>objeto: Departamento<br>gna: Partido<br>nam: José C. Paz<br>in1: 06412<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 13<br>objeto: Departamento<br>gna: Partido<br>nam: José C. Paz<br>in1: 06412<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de José C. Paz
-
-descripción: 
-gid: 13
-objeto: Departamento
-gna: Partido
-nam: José C. Paz
-in1: 06412
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>13</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>José C. Paz</value>
-          </Data>
-          <Data name="in1">
-            <value>06412</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -2142,59 +1060,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>MALVINAS ARGENTINAS</name>
-        <description><![CDATA[descripción: Partido de Malvinas Argentinas<br><br>descripción: <br>gid: 276<br>objeto: Departamento<br>gna: Partido<br>nam: Malvinas Argentinas<br>in1: 06515<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 276<br>objeto: Departamento<br>gna: Partido<br>nam: Malvinas Argentinas<br>in1: 06515<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-186</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Malvinas Argentinas
-
-descripción: 
-gid: 276
-objeto: Departamento
-gna: Partido
-nam: Malvinas Argentinas
-in1: 06515
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>276</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Malvinas Argentinas</value>
-          </Data>
-          <Data name="in1">
-            <value>06515</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -2226,59 +1092,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>VICENTE LÓPEZ</name>
-        <description><![CDATA[descripción: Partido de Vicente López<br><br>descripción: <br>gid: 34<br>objeto: Departamento<br>gna: Partido<br>nam: Vicente López<br>in1: 06861<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 34<br>objeto: Departamento<br>gna: Partido<br>nam: Vicente López<br>in1: 06861<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-189</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Vicente López
-
-descripción: 
-gid: 34
-objeto: Departamento
-gna: Partido
-nam: Vicente López
-in1: 06861
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>34</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Vicente López</value>
-          </Data>
-          <Data name="in1">
-            <value>06861</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -2319,59 +1133,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>SAN ISIDRO</name>
-        <description><![CDATA[descripción: Partido de San Isidro<br><br>descripción: <br>gid: 312<br>objeto: Departamento<br>gna: Partido<br>nam: San Isidro<br>in1: 06756<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 312<br>objeto: Departamento<br>gna: Partido<br>nam: San Isidro<br>in1: 06756<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de San Isidro
-
-descripción: 
-gid: 312
-objeto: Departamento
-gna: Partido
-nam: San Isidro
-in1: 06756
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>312</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>San Isidro</value>
-          </Data>
-          <Data name="in1">
-            <value>06756</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -2404,59 +1166,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>SAN FERNANDO</name>
-        <description><![CDATA[descripción: Partido de San Fernando<br><br>descripción: <br>gid: 512<br>objeto: Departamento<br>gna: Partido<br>nam: San Fernando<br>in1: 06749<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 512<br>objeto: Departamento<br>gna: Partido<br>nam: San Fernando<br>in1: 06749<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-186</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de San Fernando
-
-descripción: 
-gid: 512
-objeto: Departamento
-gna: Partido
-nam: San Fernando
-in1: 06749
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>512</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>San Fernando</value>
-          </Data>
-          <Data name="in1">
-            <value>06749</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -2493,59 +1203,7 @@ entidad:</value>
       </Placemark>
       <Placemark>
         <name>TIGRE</name>
-        <description><![CDATA[descripción: Partido de Tigre<br><br>descripción: <br>gid: 513<br>objeto: Departamento<br>gna: Partido<br>nam: Tigre<br>in1: 06805<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>descripci__n: <br>gid: 513<br>objeto: Departamento<br>gna: Partido<br>nam: Tigre<br>in1: 06805<br>fdc: ARBA - Gerencia de Servicios Catastrales<br>sag: IGN<br>entidad: ]]></description>
         <styleUrl>#poly-0288D1-1000-191</styleUrl>
-        <ExtendedData>
-          <Data name="descripción">
-            <value>Partido de Tigre
-
-descripción: 
-gid: 513
-objeto: Departamento
-gna: Partido
-nam: Tigre
-in1: 06805
-fdc: ARBA - Gerencia de Servicios Catastrales
-sag: IGN
-entidad:</value>
-          </Data>
-          <Data name="tessellate">
-            <value>-1</value>
-          </Data>
-          <Data name="extrude">
-            <value>0</value>
-          </Data>
-          <Data name="visibility">
-            <value>-1</value>
-          </Data>
-          <Data name="descripci__n">
-            <value/>
-          </Data>
-          <Data name="gid">
-            <value>513</value>
-          </Data>
-          <Data name="objeto">
-            <value>Departamento</value>
-          </Data>
-          <Data name="gna">
-            <value>Partido</value>
-          </Data>
-          <Data name="nam">
-            <value>Tigre</value>
-          </Data>
-          <Data name="in1">
-            <value>06805</value>
-          </Data>
-          <Data name="fdc">
-            <value>ARBA - Gerencia de Servicios Catastrales</value>
-          </Data>
-          <Data name="sag">
-            <value>IGN</value>
-          </Data>
-          <Data name="entidad">
-            <value/>
-          </Data>
-        </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
