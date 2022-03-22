@@ -234,4 +234,37 @@
     })
   });
 
+  /**
+   * Change zoom in maps for desktop and mobile
+   */
+   window.addEventListener('DOMContentLoaded', () => {
+
+    var maps=[
+      {
+        element:document.querySelector("#map-24hs"),
+        id:"entregas-en-el-dia_733345",
+        mobileZoom:"#11/-34.5891/-58.6230",
+        desktopZoom:"#11/-34.5891/-58.6230"
+      }
+    ]
+
+    var maxMobileWidth=992
+    var isMobile=window.innerWidth<maxMobileWidth||undefined
+    var commonMapSrc="//umap.openstreetmap.fr/es/map/XX__MAP__XX?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"
+
+    maps.forEach(function(map){
+      var src=commonMapSrc.replace("XX__MAP__XX",map.id)
+      if(isMobile){
+        src=src+map.obileZoom
+      }
+      else{
+        src=src+map.desktopZoom
+      }
+      map.element.setAttribute("src",src)
+    })
+    mapArgentina.element.setAttribute("src",mapArgentina.src+mapArgentina.extra)
+
+  });
+
+
 })()
