@@ -241,28 +241,39 @@
 
     var maps=[
       {
-        element:document.querySelector("#map-24hs"),
-        id:"entregas-en-el-dia_733345",
-        mobileZoom:"#11/-34.5891/-58.6230",
-        desktopZoom:"#11/-34.5891/-58.6230"
+        selector:"#map-24hs",
+        id:"zonas-de-envios_735539",
+        mobileZoom:"#9/-34.5894/-58.4613",
+        desktopZoom:""
+      },
+      {
+        selector:"#map-sameday",
+        id:"mapa-sin-titulo_735522",
+        mobileZoom:"#10/-34.5894/-58.5713",
+        desktopZoom:"#11/-34.5894/-58.5413"
+      },
+      {
+        selector:"#map-postal",
+        id:"envios-postales_735553",
+        mobileZoom:"#4/-42/-64.34",
+        desktopZoom:"#4/-39.5/-64.34"
       }
     ]
 
-    var maxMobileWidth=992
-    var isMobile=window.innerWidth<maxMobileWidth||undefined
-    var commonMapSrc="//umap.openstreetmap.fr/es/map/XX__MAP__XX?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"
+    var maxMobileWidth=778
+    var isMobile=window.innerWidth<maxMobileWidth
+    var commonMapSrc="//umap.openstreetmap.fr/es/map/XX__MAP__XX?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=false&searchControl=false&tilelayersControl=false&embedControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false&datalayers=2166580&fullscreenControl=false&locateControl=false&measureControl=false&editinosmControl=false"
 
     maps.forEach(function(map){
       var src=commonMapSrc.replace("XX__MAP__XX",map.id)
       if(isMobile){
-        src=src+map.obileZoom
+        src=src+map.mobileZoom
       }
       else{
         src=src+map.desktopZoom
       }
-      map.element.setAttribute("src",src)
+      document.querySelector(map.selector).setAttribute("src",src)
     })
-    mapArgentina.element.setAttribute("src",mapArgentina.src+mapArgentina.extra)
 
   });
 
