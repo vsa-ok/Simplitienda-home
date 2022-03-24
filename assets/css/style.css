@@ -1145,7 +1145,7 @@
     }
     
     .about .img-fluid {
-      height: 90%;
+      max-height: 90%;
     }
     
     .pasos {

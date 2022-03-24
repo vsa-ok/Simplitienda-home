@@ -243,36 +243,43 @@
       {
         selector:"#map-24hs",
         id:"zonas-de-envios_735539",
-        mobileZoom:"#9/-34.5894/-58.4613",
-        desktopZoom:""
+        mobileZoom:"#9/-34.68/-58.4613",
+        desktopZoom:"",
+        datalayers:"2166580"
       },
       {
         selector:"#map-sameday",
-        id:"mapa-sin-titulo_735522",
-        mobileZoom:"#10/-34.5894/-58.5713",
-        desktopZoom:"#11/-34.5894/-58.5413"
+        id:"zonas-de-retiro_735522",
+        mobileZoom:"#10/-34.62/-58.53",
+        desktopZoom:"#11/-34.5894/-58.5413",
+        datalayers:"2166560"
+
       },
       {
         selector:"#map-postal",
         id:"envios-postales_735553",
-        mobileZoom:"#4/-42/-64.34",
-        desktopZoom:"#4/-39.5/-64.34"
+        mobileZoom:"#3/-42/-64.34",
+        desktopZoom:"#4/-39.5/-64.34",
+        datalayers:"2166631"
       }
     ]
 
     var maxMobileWidth=778
     var isMobile=window.innerWidth<maxMobileWidth
-    var commonMapSrc="//umap.openstreetmap.fr/es/map/XX__MAP__XX?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=false&searchControl=false&tilelayersControl=false&embedControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false&datalayers=2166580&fullscreenControl=false&locateControl=false&measureControl=false&editinosmControl=false"
+    var commonMapSrc="//umap.openstreetmap.fr/es/map/XX__MAP__XX?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=false&searchControl=false&tilelayersControl=false&embedControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false&datalayers=YY__MAP__YY&fullscreenControl=false&locateControl=false&measureControl=false&editinosmControl=false"
 
     maps.forEach(function(map){
-      var src=commonMapSrc.replace("XX__MAP__XX",map.id)
+      var element=document.querySelector(map.selector)
+      var src=commonMapSrc.replace("XX__MAP__XX",map.id).replace("YY__MAP__YY",map.datalayers)
       if(isMobile){
         src=src+map.mobileZoom
+        element.setAttribute("height","320px")
+
       }
       else{
         src=src+map.desktopZoom
       }
-      document.querySelector(map.selector).setAttribute("src",src)
+      element.setAttribute("src",src)
     })
 
   });
