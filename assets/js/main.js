@@ -286,3 +286,82 @@
 
 
 })()
+
+  /**
+   * Show anda hide sections
+   */
+
+function navshow(){ 
+  document.getElementById("about").style.display = "block";
+  document.getElementById("steps").style.display = "block";    
+  document.getElementById("features").style.display = "block";    
+  document.getElementById("services").style.display = "block";    
+  document.getElementById("pricing").style.display = "block";    
+  document.getElementById("contact").style.display = "block";    
+  document.getElementById("faq").style.display = "block";      
+  document.getElementById("service1").style.display = "none";
+  document.getElementById("service2").style.display = "none";
+  document.getElementById("service3").style.display = "none";
+  document.getElementById("service4").style.display = "none";
+  document.getElementById("service5").style.display = "none";
+}
+
+window.addEventListener('load', () => {
+  navshow()
+  });
+
+  function navservicegeneral(){ 
+    document.getElementById("about").style.display = "none";
+    document.getElementById("steps").style.display = "none";
+    document.getElementById("features").style.display = "none";
+    document.getElementById("services").style.display = "none";
+    document.getElementById("pricing").style.display = "none";
+    document.getElementById("contact").style.display = "none";
+    document.getElementById("faq").style.display = "none";
+  }
+    
+function navservice1(){
+  navservicegeneral();
+  document.getElementById("service1").style.display = "block";
+  document.getElementById("service2").style.display = "none";
+  document.getElementById("service3").style.display = "none";
+  document.getElementById("service4").style.display = "none";
+  document.getElementById("service5").style.display = "none";
+}
+
+function navservice2(){
+  navservicegeneral();
+  document.getElementById("service1").style.display = "none";
+  document.getElementById("service2").style.display = "block";
+  document.getElementById("service3").style.display = "none";
+  document.getElementById("service4").style.display = "none";
+  document.getElementById("service5").style.display = "none";
+}
+
+function navservice3(){
+  navservicegeneral();
+  document.getElementById("service1").style.display = "none";
+  document.getElementById("service2").style.display = "none";
+  document.getElementById("service3").style.display = "block";
+  document.getElementById("service4").style.display = "none";
+  document.getElementById("service5").style.display = "none";
+}
+
+function navservice4(){
+  navservicegeneral();
+  document.getElementById("service1").style.display = "none";
+  document.getElementById("service2").style.display = "none";
+  document.getElementById("service3").style.display = "none";
+  document.getElementById("service4").style.display = "block";
+  document.getElementById("service5").style.display = "none";
+}
+
+function navservice5(){
+  navservicegeneral();
+  document.getElementById("service1").style.display = "none";
+  document.getElementById("service2").style.display = "none";
+  document.getElementById("service3").style.display = "none";
+  document.getElementById("service4").style.display = "none";
+  document.getElementById("service5").style.display = "block";
+}
+

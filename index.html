@@ -53,41 +53,41 @@
             <a class="nav-link scrollto" href="index.html#hero">Inicio</a>
           </li>
           <li>
-            <a class="nav-link scrollto" href="index.html#about">Nosotros</a>
+            <a onclick="navshow()" class="nav-link scrollto" href="index.html#about">Nosotros</a>
           </li>
           <li>
-            <a class="nav-link scrollto" href="index.html#steps">Por qué elegirnos?</a>
+            <a onclick="navshow()" class="nav-link scrollto" href="index.html#steps">Por qué elegirnos?</a>
           </li>
           <li>
-            <a class="nav-link scrollto" href="index.html#features">Dónde operamos?</a>
+            <a onclick="navshow()" class="nav-link scrollto" href="index.html#features">Dónde operamos?</a>
           </li>
           <li class="dropdown">
-            <a class="nav-link scrollto" href="index.html#services">
+            <a onclick="navshow()" class="nav-link scrollto active" href="index.html#services">
               <span>Servicios</span>
               <i class="bi bi-chevron-down"></i>
             </a>
             <ul>
-              <li><a href="servicio1-tienda.html">Tienda virtual</a></li>
-              <li><a href="servicio2-cobranzas.html">Cobranzas</a></li>
-              <li><a href="servicio3-envios.html">Envíos</a></li>
-              <li><a href="servicio4-contactcenter.html">Contact Center</a></li>
-              <li><a href="servicio5-fulfillment.html">Fulfillment</a></li>
+              <li><a class="navservice" onclick="navservice1()" href="index.html#service1">Tienda virtual</a></li>
+              <li><a class="navservice" onclick="navservice2()" href="index.html#service2">Cobranzas</a></li>
+              <li><a class="navservice" onclick="navservice3()" href="index.html#service3">Envíos</a></li>
+              <li><a class="navservice" onclick="navservice4()" href="index.html#service4">Contact Center</a></li>
+              <li><a class="navservice" onclick="navservice5()" href="index.html#service5">Fulfillment</a></li>
             </ul>
           </li>
           <li>
-            <a class="nav-link scrollto" href="index.html#pricing">Planes</a>
+            <a onclick="navshow()" class="nav-link scrollto" href="index.html#pricing">Planes</a>
           </li>
           <li>
-            <a class="nav-link scrollto" href="index.html#contact">Contacto</a>
+            <a onclick="navshow()" class="nav-link scrollto" href="index.html#contact">Contacto</a>
           </li>
           <li>
-            <a class="nav-link scrollto" href="index.html#faq">FAQ</a>
+            <a onclick="navshow()" class="nav-link scrollto" href="index.html#faq">FAQ</a>
           </li>
           <li>
-            <a class="nav-link" id="registro" href="https://simplitienda.com.ar/register">Registrate</a>
+            <a onclick="navshow()" class="nav-link" id="registro" href="https://simplitienda.com.ar/register">Registrate</a>
           </li>
           <li>
-            <a class="nav-link ingreso" id="ingreso" href="https://simplitienda.com.ar/login">INGRESAR</a>
+            <a onclick="navshow()" class="nav-link ingreso" id="ingreso" href="https://simplitienda.com.ar/login">INGRESAR</a>
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -100,7 +100,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center
       align-items-center">
-    <div class="container text-center text-md-left" data-aos="fade-up">
+    <div class="container text-center text-md-left" >
       <h1>Somos Simplitienda</h1>
       <h2>
         <div class="p-3 rounded hero-text m-auto">
@@ -111,7 +111,7 @@
 
         </div>
       </h2>
-      <a href="#about" class="btn-get-started scrollto">Conocé más!</a>
+      <a href="index.html#about" onclick="navshow()" class="btn-get-started scrollto">Conocé más!</a>
     </div>
   </section>
   <!-- End Hero -->
@@ -123,26 +123,26 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-xl-6 col-lg-7" data-aos="fade-right">
+          <div class="col-xl-6 col-lg-7" >
             <img src="assets/img/about-img.jpg" class="img-fluid" alt="Foto
                 nosotros">
           </div>
           <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
-            <h3 data-aos="fade-up">Todo en un solo lugar</h3>
-            <p data-aos="fade-up"> Registrate ya mismo y empezá a potenciar tus ventas! </p> 
-            <div class="icon-box" data-aos="fade-up">
+            <h3 >Todo en un solo lugar</h3>
+            <p > Registrate ya mismo y empezá a potenciar tus ventas! </p> 
+            <div class="icon-box" >
               <img class="acerca" src="assets/img/bolsacompra.png" alt="bolsacompra">
               <h4>Vendé desde nuestra plataforma</h4>
               <p>Cargá los productos así tus clientes podrán conocer todo lo que tenés para ofrecerles y empezá a vender.</p>
             </div>
 
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box"  >
               <img class="acerca" src="assets/img/dinero.png" alt="dinero">
               <h4>Cobranzas</h4>
               <p>Tus clientes te pueden pagar en efectivo, con tarjeta o Mercadopago. Todo en un solo lugar. </p>
             </div>
 
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box"  >
               <img class="acerca" src="assets/img/camion.png" alt="camion">
               <h4>No te preocupes más por los envíos!</h4>
               <p>Nosotros hacemos la entrega en todo CABA y Gran Buenos Aires. Pasamos a retirar tus productos y los entregamos a tus clientes en 24hs. </p>
@@ -151,7 +151,7 @@
 
           </div>
         </div>
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title" >
           <p class="h2"> Queremos que cada emprendedor tenga su propio ecommerce de manera rápida y sencilla y pueda hacer envíos en el día con nuestra logística.</p>
           <p class="mt-3"> Sabemos de la gran dificultad que los vendedores suelen tener a la hora de conseguir una plataforma para vender sus productos y conseguir personal para realizar los repartos de las ventas realizadas. Para eso nació Simplitienda. Somos un emprendimiento familiar con gran trayectoria en ventas online en distintos rubros.</p>
         </div>
@@ -165,37 +165,37 @@
 
         <div class="row no-gutters pasos1">
 
-          <div class="col-lg-4 col-md-6 content-item" data-aos="zoom-in">
+          <div class="col-lg-4 col-md-6 content-item" >
             <span><i class="pasos bx bxs-zap"></i></span>
             <h4>Rápido</h4>
             <p>1°- Registrate y personalizá fácilmente tu tienda para tenerla funcionando en instantes.</p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 content-item"  >
             <span><i class="pasos bx bx-like"></i></span>
             <h4>Simple</h4>
             <p>2°- Cargá tus productos de manera rápida y administrá eficientemente tu inventario y el precio de tus productos.</p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 content-item"  >
             <span><i class="pasos bx bx-link"></i></span>
             <h4>Integrador</h4>
             <p>3°- Empezá a vender! Tu ecommerce es sencillo, fácil de usar y se encuentra listo para operar.</p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 content-item"  >
             <span><i class="pasos bx bxs-store"></i></span>
             <h4>Sin moverte de tu domicilio</h4>
             <p>4°- Nuestro equipo de logística retira los pedidos en tu domicilio para que puedas ofrecer entregas en el día.</p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-lg-4 col-md-6 content-item"  >
             <span><i class="pasos bx bxs-coin-stack"></i></span>
             <h4>Controlá tus ingresos</h4>
             <p>5°- Un sencillo informe te permite ver todas tus ventas y cobranzas. Podés cobrar por Mercadopago y recibir el dinero de tu venta en el momento. </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item" data-aos="zoom-in" data-aos-delay="500">
+          <div class="col-lg-4 col-md-6 content-item"  >
             <span><i class="pasos bx bxs-navigation"></i></span>
             <h4>Seguimiento de envíos</h4>
             <p>6°- En un simple visualizador podrás hacer el seguimiento y ver el historial de todos los envíos que tengas.</p>
@@ -211,7 +211,7 @@
     <section id="features" class="features">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-down">
+        <div class="section-title" >
           <h2>¿Dónde operamos?</h2>
           <p>
             Tenemos la logística preparada para que aproveches el día al máximo. Queremos que tus clientes tengas la mejor experiencia de compra, por ese motivo ponemos a tu disposición todo nuestra experiencia en entregas. Te ofrecemos entregas en el día, en 24hs y también por Correo Argentino así podrás llegar a clientes en cada rincón del país. 
@@ -219,7 +219,7 @@
           </p>
         </div>
         <div class="row">
-          <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
+          <div class="col-lg-4 mb-5 mb-lg-0" >
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
                 <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
@@ -241,7 +241,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-7 ml-auto" data-aos="fade-left">
+          <div class="col-lg-7 ml-auto" >
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
                 <iframe id="map-24hs" width="650px" height="620px" frameborder="0" allowfullscreen></iframe>
@@ -265,7 +265,7 @@
     <section id="services" class="services section-bg">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title" >
           <h2>Servicios</h2>
           <p>Descubrí todo lo que tenemos para ofrecerte.</p>
         </div>
@@ -273,8 +273,8 @@
         <div class="row">
 
           <div class="col-md-6 col-lg-3 col-md-15 d-flex
-              align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
-            <a class="linkservicios" href="servicio1-tienda.html">
+              align-items-stretch mb-5 mb-lg-0" >
+            <a class="linkservicios" onclick="navservice1()" href="index.html#service1">
               <div class="icon-box icon-box-pink">
                 <div class="icon">
                   <i class="bx bxs-store"></i>
@@ -288,8 +288,8 @@
 
 
           <div class="col-md-6 col-lg-3 col-md-15 d-flex
-              align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-            <a class="linkservicios" href="servicio2-cobranzas.html">
+              align-items-stretch mb-5 mb-lg-0"  >
+            <a class="linkservicios" onclick="navservice2()" href="index.html#service2">
               <div class="icon-box icon-box-cyan">
                 <div class="icon">
                   <i class="bx bxs-wallet"></i>
@@ -302,8 +302,8 @@
           </div>
 
           <div class="col-md-6 col-lg-3 col-md-15 d-flex
-              align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
-            <a class="linkservicios" href="servicio3-envios.html">
+              align-items-stretch mb-5 mb-lg-0"  >
+            <a class="linkservicios" onclick="navservice3()" href="index.html#service3">
               <div class="icon-box icon-box-magenta">
                 <div class="icon">
                   <i class="bx bx-cycling"></i>
@@ -316,8 +316,8 @@
           </div>
 
           <div class="col-md-6 col-lg-3 col-md-15 d-flex
-              align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <a class="linkservicios" href="servicio4-contactcenter.html">
+              align-items-stretch mb-5 mb-lg-0"  >
+            <a class="linkservicios" onclick="navservice4()" href="index.html#service4">
               <div class="icon-box icon-box-green">
                 <div class="icon">
                   <i class="bx bx-support"></i>
@@ -330,8 +330,8 @@
           </div>
 
           <div class="col-md-6 col-lg-3 col-md-15 d-flex
-              align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="400">
-            <a class="linkservicios" href="servicio5-fulfillment.html">
+              align-items-stretch mb-5 mb-lg-0"  >
+            <a class="linkservicios" onclick="navservice5()" href="index.html#service5">
               <div class="icon-box icon-box-blue">
                 <div class="icon">
                   <i class="bx bxs-save"></i>
@@ -346,20 +346,441 @@
         </div>
 
       </div>
+
+
+
     </section>
+    <section id="service1" class="services servicios">
+      <div class="container">
+    
+       <div class="section-title" >
+        <h2>Tienda virtual</h2>
+        <p>Desarrollamos una plataforma simple para que no tengas que perder tiempo en gestiones y administraciones tediosas. La carga de productos es sencilla y te permite mantener el stock de tu mercadería al día.</p>
+       </div>
+    
+       <div class="row row-cols-2">
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx bx-happy"></i></div>
+          <h3>Simplificate</h3>
+          <p class="description descservice">Tu tienda está a sólo unos clics de distancia! La plataforma está diseñada para que todo el proceso de administración y gestión sea fácil e intuitivo de utilizar.</p>
+         </div>
+        </div>
+        <div class="col-lg-4"  >
+          <div class="icon-box icon-box-pink">
+           <div class="icon icono"><i class="bx bx-party"></i></div>
+           <h3>Empezá ya!</h3>
+           <p class="description descservice">Todos pueden tener su Simplitienda. No necesitás conocimientos técnicos ni específicos.</p>
+          </div>
+         </div>
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx bx-mobile"></i></div>
+          <h3>Desde tu móvil</h3>
+          <p class="description descservice">Podrás realizar todas tus operaciones desde un teléfono celular si así lo deseas, desde el alta de la tienda hasta la carga de productos y el seguimiento de tus ventas y envíos. </p>
+    
+         </div>
+        </div>
+    
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx
+                                            bx-user-circle"></i></div>
+          <h3>Registro</h3>
+          <p class="description descservice">Registrate en pocos pasos suministrando la información mínima necesaria para poder tener tu propia tienda virtual. Tu Simplitienda estará lista para vender en menos de 5 minutos.
+          </p>
+         </div>
+        </div>
+    
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx
+                                            bx-list-check"></i></div>
+          <h3>Personalizable</h3>
+          <p class="description descservice">Seleccioná el tipo de envío con el que querés trabajar. Si deseas que puedan retirar de tu domicilio, horarios de corte para envíos en el día y las formas de pago que deseas ofrecer a tus clientes.</p>
+         </div>
+        </div>
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx bx-paint"></i></div>
+          <h3>Diseño</h3>
+          <p class="description descservice">Personalizá tu tienda virtual. Podrás cargar tu logo y elegir la paleta de colores que desees para generar una experiencia agradable en la visualización de tu página.</p>
+         </div>
+        </div>
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx bx-camera"></i></div>
+          <h3>Mostrá tu producto</h3>
+          <p class="description descservice">Cargá tus productos de manera ágil y simple, podrás poner la cantidad de fotos por producto que desees, suministrar el precio y la cantidad de productos en stock.</p>
+         </div>
+        </div>
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx
+                                            bx-sitemap"></i></div>
+          <h3>Categorizá</h3>
+          <p class="description descservice">Organizá tus productos creando todas las categorías que creas necesarias para mantener tu cartera de productos ordenada. Podrás ensamblarlas en sub categorías para facilitar aún más las cosas.
+          </p>
+         </div>
+        </div>
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx
+                                            bx-toggle-right"></i></div>
+          <h3>On-off</h3>
+          <p class="description descservice">Tu tienda tendrá días y horarios prefijados pero podés activarla y desactivarla siempre que lo desees o necesites. De la misma manera podrás cancelar tu suscripción a Simplitienda sin necesidad de realizar otras gestiones.
+          </p>
+         </div>
+        </div>
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx bx-cart"></i></div>
+          <h3>Vendiendo</h3>
+          <p class="description descservice">Tus clientes ya pueden realizar navegar por tu tienda virtual ecommerce, añadir tus productos al carrito y finalizar las compras con las opciones que le diste.</p>
+         </div>
+        </div>
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx bx-group"></i></div>
+          <h3>Social</h3>
+          <p class="description descservice">Dedicate a vender, el resto nos encargamos nosotros! Vinculá tus redes sociales para expandir tu marca a mucha más gente.</p>
+         </div>
+        </div>
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx bx-edit"></i></div>
+          <h3>Administrable</h3>
+          <p class="description descservice">Podrás gestionar de manera sencilla el inventario de mercadería, realizar ingresos de stock y actualizar tus precios de forma masiva.
+          </p>
+         </div>
+        </div>
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx
+                                            bx-x-circle"></i></div>
+          <h3>Cancelación de pedidos</h3>
+          <p class="description descservice">Podrás realizar la cancelación de cualquier pedido que desees a tu criterio y sin restricciones. Y podrás visualizar los movimientos de dinero para efectivizar la cancelación de manera simple.</p>
+         </div>
+        </div>
+    
+        <div class="col-lg-4"  >
+         <div class="icon-box icon-box-pink">
+          <div class="icon icono"><i class="bx
+                                            bx-line-chart"></i></div>
+          <h3>Indicadores</h3>
+          <p class="description descservice">Tendrás disponibles indicadores y estadísticas de venta para que puedas visualizar la información para analizarla y mejorar tu negocio.
+          </p>
+         </div>
+        </div>
+       </div>
+    
+      </div>
+     </section>
+
+
+     <section id="service2" class="services servicios">
+      <div class="container">
+
+          <div class="section-title" >
+              <h2>Cobranzas</h2>
+              <p>Integramos las cobranzas para que puedas ofrecer todos los medios de pago y puedas llegar a todo el público cuando te estás haciendo conocer.</p>
+          </div>
+
+
+          <div class="row row-cols-2">
+              <div class="col-lg-4"  >
+                  <div class="icon-box icon-box-cyan">
+                      <div class="icon icono"><i class="bx bx-checkbox-checked"></i></div>
+                      <h3>Modifica cuando quieras</h3>
+                      <p class="description descservice">Podrás seleccionar y modificar las diferentes opciones de cobranzas que le ofrecés a tus clientes desde un simple panel administrador en el momento que lo desees .</p>
+                  </div>
+              </div>
+
+              <div class="col-lg-4"  >
+                  <div class="icon-box icon-box-cyan">
+                      <div class="icon icono"><i class="bx bx-check-shield"></i></div>
+                      <h3>Seguro</h3>
+                      <p class="description descservice">Nuestra plataforma ofrece link directo a transacciones seguras a través de MercadoPago para que puedas ofrecer la mayor variedad de formas de pago a tus clientes. </p>
+
+                  </div>
+              </div>
+
+              <div class="col-lg-4"  >
+                  <div class="icon-box icon-box-cyan">
+                      <div class="icon icono"><i class="bx bx-link"></i></div>
+                      <h3>Integrado</h3>
+                      <p class="description descservice">Cuando estés logueado en la administración de tu tienda verás un acceso directo que te llevará a tu usuario de MercadoPago en donde podrás habilitar y modificar la aceptación al cobro de comisiones y servicio de envíos a cargo del
+                          cliente final. </p>
+                  </div>
+              </div>
+
+              <div class="col-lg-4"  >
+                  <div class="icon-box icon-box-cyan">
+                      <div class="icon icono"><i class="bx bx-shopping-bag"></i></div>
+                      <h3>Cobrá cuando vendés</h3>
+                      <p class="description descservice">Cuando tu cliente realice una compra podrá elegir entre las diferentes opciones de pago que le diste y en el caso que sea por MercadoPago verás reflejado el movimiento en tu cuenta en instantes.</p>
+                  </div>
+              </div>
+              <div class="col-lg-4"  >
+                  <div class="icon-box icon-box-cyan">
+                      <div class="icon icono"><i class="bx bx-credit-card"></i></div>
+                      <h3>Tarjetas</h3>
+                      <p class="description descservice">Tus clientes podrán optar de pagar con tarjeta de crédito o débito de cualquier banco y podrás ofrecerles pago en cuotas financiados por MercadoPago.</p>
+                  </div>
+              </div>
+              <div class="col-lg-4"  >
+                  <div class="icon-box icon-box-cyan">
+                      <div class="icon icono"><i class="bx bx-money"></i></div>
+                      <h3>Efectivo</h3>
+                      <p class="description descservice">Sabiendo la importancia de versatilidad de opciones al cliente cuando una marca se está dando a conocer, ofrecemos la posibilidad de pago contra-entrega en efectivo o por medios digitales a través de código QR de cobro.</p>
+                  </div>
+              </div>
+              <div class="col-lg-4"  >
+                  <div class="icon-box icon-box-cyan">
+                      <div class="icon icono"><i class="bx bx-transfer"></i></div>
+                      <h3>Transferencia bancaria</h3>
+                      <p class="description descservice">Podrás también ofrecer pago mediante transferencia bancaria de manera que el cliente se comunica de manera directa contigo para realizar pago. Al igual que si ofreces la opción de retiro del pedido en domicilio, podrás cobrarle directamente.</p>
+                  </div>
+              </div>
+              <div class="col-lg-4"  >
+                  <div class="icon-box icon-box-cyan">
+                      <div class="icon icono"><i class="bx bxs-binoculars"></i></div>
+                      <h3>Controlable</h3>
+                      <p class="description descservice">Quedate tranquilo/a! Podrás visualizar absolutamente todos tus movimientos desde un simple panel de finanzas. Podrás ver resúmenes por tipo de cobro, dinero a liquidar por pagos en efectivo, comisiones cobradas y monto de los envíos.</p>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+  <section id="service3" class="services servicios">
+    <div class="container">
+
+        <div class="section-title" >
+            <h2>Envíos</h2>
+            <p>Retiramos los pedidos de tu domicilio y llevamos tu ventas a todo el país. Podrás hacer envíos en el día y tu cliente podrá tener precios super accesibles para obtener su mercadería de forma rápida y segura.</p>
+        </div>
+
+
+        <div class="row row-cols-2">
+            <div class="col-lg-4"  >
+                <div class="icon-box icon-box-magenta">
+                    <div class="icon icono"><i class="bx bx-happy"></i></div>
+                    <h3>Todos tus envíos</h3>
+                    <p class="description descservice">Si ! Nos encargamos de toda la logística de tus ventas desde el primer día. No tenés que andar buscando servicio de mensajería por otro lado y volverte loco para ver si se puede integrar a tu tienda.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4"  >
+                <div class="icon-box icon-box-magenta">
+                    <div class="icon icono"><i class="bx bx-like"></i></div>
+                    <h3>La mejor ubicación</h3>
+                    <p class="description descservice">Tenemos la ubicación perfecta para poder llegar a todos los rincones de Capital Federal y gran Buenos Aires para que puedas vender desde donde te encuentres. </p>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4"  >
+                <div class="icon-box icon-box-magenta">
+                    <div class="icon icono"><i class="bx bx-been-here"></i></div>
+                    <h3>Quedate en tu casa</h3>
+                    <p class="description descservice">No tenés ni que salir de tu casa. Nosotros retiramos de tu domicilio ,después del cierre diario de ventas, todos tus pedidos y se los llevamos a tus clientes. </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4"  >
+                <div class="icon-box icon-box-magenta">
+                    <div class="icon icono"><i class="bx bx-globe"></i></div>
+                    <h3>Envíos flex y más</h3>
+                    <p class="description descservice">Englobá todos tus envíos con el servicio de logística de Simplitienda. Hacemos entregas de MercadoLibre flex, envíos particulares o ventas desde otras plataformas. </p>
+                </div>
+            </div>
+            <div class="col-lg-4"  >
+                <div class="icon-box icon-box-magenta">
+                    <div class="icon icono"><i class="bx bx-timer"></i></div>
+                    <h3>Entregas en el día</h3>
+                    <p class="description descservice">Uno de los puntos más solicitados por todos los tipos de clientes en éstos tiempos, entrega rápida asegurada. Adquirí sus beneficios y olvidate del tema, la realizamos nosotros.</p>
+                </div>
+            </div>
+            <div class="col-lg-4"  >
+                <div class="icon-box icon-box-magenta">
+                    <div class="icon icono"><i class="bx bx-calendar-event"></i></div>
+                    <h3>Entrega 24 hs. y programadas</h3>
+                    <p class="description descservice">Podrás también optar por envíos al día siguiente según tu preferencia y manejar tus tiempos en entrega por cada producto si así lo precisas.</p>
+                </div>
+            </div>
+            <div class="col-lg-4"  >
+                <div class="icon-box icon-box-magenta">
+                    <div class="icon icono"><i class="bx bx-package"></i></div>
+                    <h3>Correo Argentino</h3>
+                    <p class="description descservice">Hacete conocer en todo el país sin limitaciones. También retiramos tus paquetes para envíos al interior de Buenos Aires y el resto del país y los hacemos llegar a través del Correo Argentino.</p>
+                </div>
+            </div>
+            <div class="col-lg-4"  >
+                <div class="icon-box icon-box-magenta">
+                    <div class="icon icono"><i class="bx bx-refresh"></i></div>
+                    <h3>Logística inversa</h3>
+                    <p class="description descservice">Sin complicaciones! Para seguir dando respuestas a nuestros clientes y se puedan dedicar a su negocio, nos encargamos de los cambios mano a mano de productos y la logística inversa.</p>
+                </div>
+            </div>
+            <div class="col-lg-4"  >
+                <div class="icon-box icon-box-magenta">
+                    <div class="icon icono"><i class="bx bx-radar"></i></div>
+                    <h3>Seguimiento</h3>
+                    <p class="description descservice">Como siempre haciendo foco en la simplicidad de la información, podrás hacer el seguimiento de cada uno de tus envíos en el panel de control para siempre estar informado del estado de los mismos.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="service4" class="services servicios">
+  <div class="container">
+
+      <div class="section-title" >
+          <h2>Contact Center</h2>
+          <p>Estamos disponibles todo el día con atención humana y personalizada para poder ayudarte cuando lo necesites. Brindamos un canal de comunicación directo y rápido a través de nuestros oficiales de cuenta.</p>
+      </div>
+
+
+      <div class="row row-cols-2">
+          <div class="col-lg-4"  >
+              <div class="icon-box icon-box-green">
+                  <div class="icon icono"><i class="bx bx-phone-call"></i></div>
+                  <h3>Oficiales de cuenta</h3>
+                  <p class="description descservice">Tendrás la opción de ser atendido por uno de nuestros oficiales de cuenta para cualquier cosa que necesites. Estarán disponibles a través de WhatsApp o teléfono para darte soluciones inmediatas en la operación en caso de que las
+                      requieras.
+                  </p>
+              </div>
+          </div>
+
+          <div class="col-lg-4"  >
+              <div class="icon-box icon-box-green">
+                  <div class="icon icono"><i class="bx bx-user-voice"></i></div>
+                  <h3>Atención humana</h3>
+                  <p class="description descservice">Basándonos en nuestros principios brindamos atención humana a cada uno de nuestros clientes personalizando la atención para cada caso particular de ser necesario para no quedes frenado por reglas automáticas que pueden perjudicar
+                      tu operación y crecimiento.</p>
+
+              </div>
+          </div>
+
+          <div class="col-lg-4"  >
+              <div class="icon-box icon-box-green">
+                  <div class="icon icono"><i class="bx bx-conversation"></i></div>
+                  <h3>Mensajería</h3>
+                  <p class="description descservice">Respondemos todas las dudas y consultas a través de nuestro medio de mensajería. No dudes en hacerlo, ninguna pregunta está de más.</p>
+              </div>
+          </div>
+
+          <div class="col-lg-4"  >
+              <div class="icon-box icon-box-green">
+                  <div class="icon icono"><i class="bx bx-send"></i></div>
+                  <h3>Contactanos</h3>
+                  <p class="description descservice">Puedes enviarnos un e-mail a través de nuestra sección de contactos para solicitar una entrevista virtual o coordinar una visita presencial en el caso que lo consideres necesario para asesorarte o que nos conozcas y que puedas
+                      empezar con Simplitienda cuanto antes.</p>
+              </div>
+          </div>
+          <div class="col-lg-4"  >
+              <div class="icon-box icon-box-green">
+                  <div class="icon icono"><i class="bx bxs-megaphone"></i></div>
+                  <h3>Vendé más</h3>
+                  <p class="description descservice">Podrás solicitar también asesoramiento de marketing y de cómo aprovechar Simplitienda para facilitar los datos a tus campañas publicitarias digitales.</p>
+              </div>
+          </div>
+
+      </div>
+
+  </div>
+</section>
+
+<section id="service5" class="services servicios">
+  <div class="container">
+
+      <div class="section-title" >
+          <h2>Fulfillment</h2>
+          <p>Ofrecemos la posibilidad de almacenar tu mercadería para que también te olvides de tener que estar preparando los pedidos y puedas dedicarte a vender y pensar en tu negocio.</p>
+      </div>
+
+
+      <div class="row row-cols-2">
+          <div class="col-lg-4"  >
+              <div class="icon-box icon-box-blue">
+                  <div class="icon icono"><i class="bx bx-package"></i></div>
+                  <h3>Almacenamiento</h3>
+                  <p class="description descservice">Puedes enviarnos tu mercadería para almacenamiento en nuestro depósito y desligarte de espacios propios para otras cosas.</p>
+              </div>
+          </div>
+
+          <div class="col-lg-4"  >
+              <div class="icon-box icon-box-blue">
+                  <div class="icon icono"><i class="bx bx-purchase-tag"></i></div>
+                  <h3>Etiquetado</h3>
+                  <p class="description descservice">Simplemente tienes que preparar y etiquetar tu mercadería para que se pueda a partir de ahí realizar toda la trazabilidad de tu stock. </p>
+
+              </div>
+          </div>
+
+          <div class="col-lg-4"  >
+              <div class="icon-box icon-box-blue">
+                  <div class="icon icono"><i class="bx bx-task"></i></div>
+                  <h3>Control de recepción</h3>
+                  <p class="description descservice">Realizamos el control físico completo de los productos a enviar a través del etiquetado con el remito de transporte para asegurarnos de que todo lo declarado ingrese al depósito.</p>
+              </div>
+          </div>
+
+          <div class="col-lg-4"  >
+              <div class="icon-box icon-box-blue">
+                  <div class="icon icono"><i class="bx bxs-truck"></i></div>
+                  <h3>Retiramos tu stock</h3>
+                  <p class="description descservice">Retiramos la solicitud de envío para fulfillment directamente en tu negocio y la transportamos a nuestro depósito para el correcto almacenamiento de los productos.</p>
+              </div>
+          </div>
+
+          <div class="col-lg-4"  >
+              <div class="icon-box icon-box-blue">
+                  <div class="icon icono"><i class="bx bx-gift"></i></div>
+                  <h3>Preparación de pedidos</h3>
+                  <p class="description descservice">Atendemos tus ventas y realizamos el preparado de todos tus pedidos sin que vos tengas que hacer nada al respecto.</p>
+              </div>
+          </div>
+
+          <div class="col-lg-4"  >
+              <div class="icon-box icon-box-blue">
+                  <div class="icon icono"><i class="bx bx-navigation"></i></div>
+                  <h3>Despacho</h3>
+                  <p class="description descservice">Realizamos los despachos a todos AMBA para que llegues a tus clientes en el mismo día de realizada la compra. Hacemos también los despachos por Correo Argentino o Expresos.</p>
+              </div>
+          </div>
+
+          <div class="col-lg-4"  >
+              <div class="icon-box icon-box-blue">
+                  <div class="icon icono"><i class="bx bx-mail-send"></i></div>
+                  <h3>Consultanos</h3>
+                  <p class="description descservice">Para conocer más sobre éste servicio por favor envíanos un mail a través de las opciones a continuación. Podrás realizar una consulta o solicitar una entrevista virtual o presencial para conocer los detalles.</p>
+              </div>
+          </div>
+
+      </div>
+
+  </div>
+</section>
+
     <!-- End Services Section -->
 
     <!-- ======= Pricing Section ======= -->
 
     <section id="pricing" class="pricing">
-      <div class="container" data-aos="fade-up">
+      <div class="container" >
 
         <div class="section-title">
           <h2>Planes</h2>
           <p>La solución que estabas necesitando. Te ofrecemos una plataforma ágil para que se complemente al trabajo diario de todos los emprendedores y pymes que deseen tener en un sólo lugar una plataforma de ventas, cobros y envíos en el día a todo el AMBA. También podrás despachar tus ventas a todo el país.</p>
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="row"  >
           <div id="download-template" class="pt-4">
             <div class="row gx-1 download-template">
               <div class="col-lg-44 d-none d-xl-block
@@ -403,7 +824,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="col-xl-8 licenses" data-aos="fade-up" data-aos-delay="200">
+              <div class="col-xl-8 licenses"  >
                 <div class="row gx-1">
                   <div class="col-lg-44 mt-4 mt-lg-0
                       free">
@@ -442,7 +863,7 @@
                     </div>
                   </div>
                   <div class="col-lg-44 mt-5
-                          mt-lg-0 pro" data-aos="fade-up" data-aos-delay="300">
+                          mt-lg-0 pro"  >
                     <div class="title">
                       <h2>Simpli <strong>basic</strong> </h2>
                       <span>Envíos integrados</span>
@@ -478,7 +899,7 @@
                     </div>
                   </div>
                   <div class="col-lg-44 mt-5
-                          mt-lg-0 membership" data-aos="fade-up" data-aos-delay="400">
+                          mt-lg-0 membership"  >
                     <div class="title">
                       <h2>Simpli <strong>full</strong> </h2>
                       <span>Al servicio suyo</span>
@@ -514,7 +935,7 @@
                     </div>
                   </div>
                   <div class="col-lg-44 mt-5
-                          mt-lg-0 membership" data-aos="fade-up" data-aos-delay="500">
+                          mt-lg-0 membership"  >
                     <div class="title">
                       <h2>Simpli <strong>pro</strong> </h2>
                       <span>Seguí creciendo</span>
@@ -564,13 +985,13 @@
     <section id="contact" class="contact section-bg">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-down">
+        <div class="section-title" >
           <h2>Contacto</h2>
           <p>Tenemos la ubicación perfecta para llegar a todo el AMBA a retirar y entregar tus pedidos. </p>
         </div>
 
-        <div class="row no-gutters justify-content-center" data-aos="fade-up">
-          <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-right" data-aos-delay="100">
+        <div class="row no-gutters justify-content-center" >
+          <div class="col-lg-5 d-flex align-items-stretch"  >
             <div class="info">
 
               <div class="">
@@ -611,7 +1032,7 @@
 
           </div>
 
-          <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+          <div class="col-lg-5 d-flex align-items-stretch"  >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24795.408801259746!2d-58.62417954207521!3d-34.61104931780868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb859089ff8d5%3A0x5637c534d2130a66!2sEl%20Palomar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1645559485593!5m2!1ses!2sar"
               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -619,7 +1040,7 @@
 
         </div>
 <section id="mesage-form">
-        <div class="row mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="row mt-5 justify-content-center"  >
           <div class="col-lg-10">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
@@ -658,25 +1079,25 @@
     <section id="faq" class="faq">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title" >
           <h2>Preguntas Frecuentes</h2>
           <p>Brindamos atención humana y personalizada para que puedas hacer todas tus consultas. Una vez que obtienes tu Simplitienda nuestros ejecutivos de cuenta se encargarán de estar siempre disponibles para poder solucionar cualquier inconveniente o inquietud. </p>
         </div>
 
         <div class="faq-list">
           <ul>
-            <li data-aos="fade-up">
+            <li >
               <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-1" class="collapse">Cómo hacen las personas para comprar en mi tienda?
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-1" class="collapsed">Cómo hacen las personas para comprar en mi tienda?
                 <i class="bx bx-chevron-down icon-show"></i>
                 <i class="bx bx-chevron-up icon-close"></i>
               </a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+              <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
                 <p>Podrás promocionar tu sitio web en todas las redes sociales y en dónde lo desees. El mismo será www.simplitienda.com.ar/tuNombreDeTienda.</p>
               </div>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="100">
+            <li  >
               <i class="bx bx-help-circle icon-help"></i>
               <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Necesito una computadora para poder administrar mi tienda?
                 <i class="bx bx-chevron-down icon-show"></i>
@@ -687,7 +1108,7 @@
               </div>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="200">
+            <li  >
               <i class="bx bx-help-circle icon-help"></i>
               <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Necesito tener cuenta bancaria y/o tarjeta de crédito para registarme?
                 <i class="bx bx-chevron-down icon-show"></i>
@@ -697,42 +1118,42 @@
                 <p>No tenés que brindarnos ningún dato de tus cuentas o tarjetas para probar tu Simplitienda. </p>
               </div>
             </li>
-            <li data-aos="fade-up" data-aos-delay="200">
+            <li  >
               <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Mis clientes pueden pagarme con tarjeta?
-                <i class="bx bx-chevron-down icon-show"></i>
-                <i class="bx bx-chevron-up icon-close"></i>
-              </a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>Sí, para ofrecer pago con tarjetas y MercadoPago sólo tendrás ingresar en la web de Mercadopago con tu usuario y habilitar para que el dinero de tus ventas se deposite directamente en tu cuenta. No te preocupes, es súper fácil y te guiaremos en todo el proceso.</p>
-              </div>
-            </li>
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Cuál es el plan que más me conviene?
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Mis clientes pueden pagarme con tarjeta?
                 <i class="bx bx-chevron-down icon-show"></i>
                 <i class="bx bx-chevron-up icon-close"></i>
               </a>
               <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>Sí, para ofrecer pago con tarjetas y MercadoPago sólo tendrás ingresar en la web de Mercadopago con tu usuario y habilitar para que el dinero de tus ventas se deposite directamente en tu cuenta. No te preocupes, es súper fácil y te guiaremos en todo el proceso.</p>
+              </div>
+            </li>
+            <li  >
+              <i class="bx bx-help-circle icon-help"></i>
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Cuál es el plan que más me conviene?
+                <i class="bx bx-chevron-down icon-show"></i>
+                <i class="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                 <p>Si tenés dudas, podés comunicarte con nosotros para contarnos de tu emprendimiento y podar asesorarte en cuál es el plan más indicado para comenzar tu Simplitienda. Pero no pierdas el tiempo puedes empezar ahora con una cuenta gratuita y modificarla cuando lo necesites. </p>
               </div>
             </li>
-            <li data-aos="fade-up" data-aos-delay="400">
+            <li  >
               <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Si tengo que permanecer cerrado por cierto tiempo, puedo pausar y reanudar mi tienda cuantas veces quiera?
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed">Si tengo que permanecer cerrado por cierto tiempo, puedo pausar y reanudar mi tienda cuantas veces quiera?
                 <i class="bx bx-chevron-down icon-show"></i>
                 <i class="bx bx-chevron-up icon-close"></i>
               </a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+              <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
                 <p>Sí, podés tener tu Simplitienda funcionando cuando quieras. Si querés pausar las ventas podrás hacerlo fácilmente y tus compradores no podrán hacer pedidos nuevos hasta que vos decidas. Seguiremos mostrando tus productos pero no permitiremos nuevas ventas. Vos tenés el control.</p>
               </div>
-            <li data-aos="fade-up" data-aos-delay="400">
+            <li  >
               <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Puedo suspender la contratación del servicio cuando lo desee?
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-7" class="collapsed">Puedo suspender la contratación del servicio cuando lo desee?
                 <i class="bx bx-chevron-down icon-show"></i>
                 <i class="bx bx-chevron-up icon-close"></i>
               </a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+              <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
                 <p>Sí, podés cancelar fácilmente cuando quieras tu contratación. No tenemos tiempo mínimo de permanencia.</p>
               </div>
             </li>

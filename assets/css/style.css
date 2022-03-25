@@ -1174,15 +1174,7 @@
         float: left;
       }
     }
-    
-    #service1,
-    #service2,
-    #service3,
-    #service4,
-    #service5 {
-      margin-top: 80px;
-    }
-    
+        
     .conocemas {
       right: 10px;
       position: absolute;
@@ -1284,7 +1276,9 @@
       background: #141c5cbf;
       max-width: 42em;
     }
-    
+    .navservice{
+      cursor:pointer;
+    }
     /*--------------------------------------------------------------
 # Tabla precios
 --------------------------------------------------------------*/
