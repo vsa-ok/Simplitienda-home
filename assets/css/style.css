@@ -1265,7 +1265,12 @@
       background-color: rgba(0, 0, 255, 0.01);
       border-color: hsl(240, 100%, 25%);
     }
-    
+    .servicios{
+      margin-top: 70px;
+    }
+    .navservice{
+      cursor:pointer;
+    }
     .features iframe {
       max-width: 100%;
     }
@@ -1275,9 +1280,6 @@
     .hero-text{
       background: #141c5cbf;
       max-width: 42em;
-    }
-    .navservice{
-      cursor:pointer;
     }
     /*--------------------------------------------------------------
 # Tabla precios

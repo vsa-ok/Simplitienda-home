@@ -291,7 +291,9 @@
    * Show anda hide sections
    */
 
-function navshow(){ 
+function navShow(){ 
+  document.getElementById("hero").style.display = "block";
+  document.getElementById("hero").classList.add("d-flex");
   document.getElementById("about").style.display = "block";
   document.getElementById("steps").style.display = "block";    
   document.getElementById("features").style.display = "block";    
@@ -307,10 +309,12 @@ function navshow(){
 }
 
 window.addEventListener('load', () => {
-  navshow()
+  navShow()
   });
 
-  function navservicegeneral(){ 
+  function navServiceGeneral(){ 
+    document.getElementById("hero").style.display = "none";
+    document.getElementById("hero").classList.remove("d-flex");
     document.getElementById("about").style.display = "none";
     document.getElementById("steps").style.display = "none";
     document.getElementById("features").style.display = "none";
@@ -320,17 +324,18 @@ window.addEventListener('load', () => {
     document.getElementById("faq").style.display = "none";
   }
     
-function navservice1(){
-  navservicegeneral();
-  document.getElementById("service1").style.display = "block";
+function navService1(){
+  navServiceGeneral();
   document.getElementById("service2").style.display = "none";
   document.getElementById("service3").style.display = "none";
   document.getElementById("service4").style.display = "none";
   document.getElementById("service5").style.display = "none";
+  document.getElementById("service1").style.display = "block";
+
 }
 
-function navservice2(){
-  navservicegeneral();
+function navService2(){
+  navServiceGeneral();
   document.getElementById("service1").style.display = "none";
   document.getElementById("service2").style.display = "block";
   document.getElementById("service3").style.display = "none";
@@ -338,8 +343,8 @@ function navservice2(){
   document.getElementById("service5").style.display = "none";
 }
 
-function navservice3(){
-  navservicegeneral();
+function navService3(){
+  navServiceGeneral();
   document.getElementById("service1").style.display = "none";
   document.getElementById("service2").style.display = "none";
   document.getElementById("service3").style.display = "block";
@@ -347,8 +352,8 @@ function navservice3(){
   document.getElementById("service5").style.display = "none";
 }
 
-function navservice4(){
-  navservicegeneral();
+function navService4(){
+  navServiceGeneral();
   document.getElementById("service1").style.display = "none";
   document.getElementById("service2").style.display = "none";
   document.getElementById("service3").style.display = "none";
@@ -356,8 +361,8 @@ function navservice4(){
   document.getElementById("service5").style.display = "none";
 }
 
-function navservice5(){
-  navservicegeneral();
+function navService5(){
+  navServiceGeneral();
   document.getElementById("service1").style.display = "none";
   document.getElementById("service2").style.display = "none";
   document.getElementById("service3").style.display = "none";
