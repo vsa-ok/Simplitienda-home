@@ -1268,9 +1268,6 @@
     .servicios{
       margin-top: 70px;
     }
-    .navservice{
-      cursor:pointer;
-    }
     .features iframe {
       max-width: 100%;
     }
@@ -1431,19 +1428,4 @@
     .download-template .licenses .features .icon-close {
       color: red;
       font-size: 25px;
-    }
-    
-    .tab-2 {
-      position: relative;
-      margin-top: -60px;
-    }
-    
-    #tab-2 {
-      overflow: hidden;
-    }
-    #tab-1 {
-      overflow: hidden;
-    }
-    #tab-3 {
-      overflow: hidden;
     }

@@ -288,7 +288,7 @@
 })()
 
   /**
-   * Show anda hide sections
+   * Show and hide sections
    */
 
 function navShow(){ 
@@ -297,7 +297,7 @@ function navShow(){
   document.getElementById("about").style.display = "block";
   document.getElementById("steps").style.display = "block";    
   document.getElementById("features").style.display = "block";    
-  document.getElementById("services").style.display = "block";    
+  document.getElementById("servicemain").style.display = "block";    
   document.getElementById("pricing").style.display = "block";    
   document.getElementById("contact").style.display = "block";    
   document.getElementById("faq").style.display = "block";      
@@ -318,7 +318,7 @@ window.addEventListener('load', () => {
     document.getElementById("about").style.display = "none";
     document.getElementById("steps").style.display = "none";
     document.getElementById("features").style.display = "none";
-    document.getElementById("services").style.display = "none";
+    document.getElementById("servicemain").style.display = "none";
     document.getElementById("pricing").style.display = "none";
     document.getElementById("contact").style.display = "none";
     document.getElementById("faq").style.display = "none";
@@ -369,4 +369,3 @@ function navService5(){
   document.getElementById("service4").style.display = "none";
   document.getElementById("service5").style.display = "block";
 }
-
