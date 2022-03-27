@@ -100,12 +100,13 @@
   })
 
   /**
-   * Mobile nav dropdowns activate
+   * Mobile nav dropdowns activate ((((((modified))))))
    */
-  on('click', '.navbar .dropdown > a', function(e) {
+  on('click', '.chevronmobile', function(e) {
     if (select('#navbar').classList.contains('navbar-mobile')) {
       e.preventDefault()
-      this.nextElementSibling.classList.toggle('dropdown-active')
+      document.getElementById("dropdownmobile").classList.toggle('dropdown-active')
+      document.getElementById("servicesmobile").style.color="unset"
     }
   }, true)
 
@@ -237,7 +238,7 @@
   /**
    * Change zoom in maps for desktop and mobile
    */
-   window.addEventListener('DOMContentLoaded', () => {
+    window.addEventListener('DOMContentLoaded', () => {
 
     var maps=[
       {
@@ -283,7 +284,6 @@
     })
 
   });
-
 
 })()
 
