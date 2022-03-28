@@ -51,46 +51,46 @@
       <nav id="navbar" class="navbar">
         <ul id="navbarmobile">
           <li>
-            <a onclick="navShow()" class="nav-link scrollto" href="#hero">Inicio</a>
+            <a class="nav-link scrollto nav-anchor" href="#hero"onclick="handleNavClick()">Inicio</a>
           </li>
           <li>
-            <a onclick="navShow()" class="nav-link scrollto" href="#about">Nosotros</a>
+            <a class="nav-link scrollto nav-anchor" href="#about"onclick="handleNavClick()">Nosotros</a>
           </li>
           <li>
-            <a onclick="navShow()" class="nav-link scrollto" href="#steps">Por qué elegirnos?</a>
+            <a class="nav-link scrollto nav-anchor" href="#steps" onclick="handleNavClick()">Por qué elegirnos?</a>
           </li>
           <li>
-            <a onclick="navShow()" class="nav-link scrollto" href="#features">Dónde operamos?</a>
+            <a class="nav-link scrollto nav-anchor" href="#features"onclick="handleNavClick()">Dónde operamos?</a>
           </li>
           <li id="dropdown" class="dropdown">
-            <a onclick="navShow()"  id="servicesmobile" class="nav-link scrollto servicesmobile" href="#services">
+            <a  id="servicesmobile" class="nav-link scrollto nav-anchor servicesmobile" href="#services"onclick="handleNavClick()">
               <span>Servicios</span>
             </a>
             <a id="chevronmobile" class="chevronmobile">
               <i class="bi bi-chevron-down"></i>
             </a>
             <ul id="dropdownmobile" class="dropdownmobile">
-              <li><a class="navservice nav-link scrollto" onclick="navService1()" href="#service1">Tienda virtual</a></li>
-              <li><a class="navservice nav-link scrollto" onclick="navService2()" href="#service2">Cobranzas</a></li>
-              <li><a class="navservice nav-link scrollto" onclick="navService3()" href="#service3">Envíos</a></li>
-              <li><a class="navservice nav-link scrollto" onclick="navService4()" href="#service4">Contact Center</a></li>
-              <li><a class="navservice nav-link scrollto" onclick="navService5()" href="#service5">Fulfillment</a></li>
+              <li><a class="navservice nav-link scrollto service-anchor" href="#service1">Tienda virtual</a></li>
+              <li><a class="navservice nav-link scrollto service-anchor" href="#service2">Cobranzas</a></li>
+              <li><a class="navservice nav-link scrollto service-anchor" href="#service3">Envíos</a></li>
+              <li><a class="navservice nav-link scrollto service-anchor" href="#service4">Contact Center</a></li>
+              <li><a class="navservice nav-link scrollto service-anchor" href="#service5">Fulfillment</a></li>
             </ul>
           </li>
           <li>
-            <a onclick="navShow()" class="nav-link scrollto" href="#pricing">Planes</a>
+            <a class="nav-link scrollto nav-anchor" href="#pricing"onclick="handleNavClick()">Planes</a>
           </li>
           <li>
-            <a onclick="navShow()" class="nav-link scrollto" href="#contact">Contacto</a>
+            <a class="nav-link scrollto nav-anchor" href="#contact"onclick="handleNavClick()">Contacto</a>
           </li>
           <li>
-            <a onclick="navShow()" class="nav-link scrollto" href="#faq">FAQ</a>
+            <a class="nav-link scrollto nav-anchor" href="#faq"onclick="handleNavClick()">FAQ</a>
           </li>
           <li>
-            <a onclick="navShow()" class="nav-link" id="registro" href="https://simplitienda.com.ar/register">Registrate</a>
+            <a class="nav-link" id="registro" href="https://simplitienda.com.ar/register">Registrate</a>
           </li>
           <li>
-            <a onclick="navShow()" class="nav-link ingreso" id="ingreso" href="https://simplitienda.com.ar/login">INGRESAR</a>
+            <a class="nav-link ingreso" id="ingreso" href="https://simplitienda.com.ar/login">INGRESAR</a>
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -100,26 +100,27 @@
   </header>
   <!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center
-      align-items-center">
-    <div class="container text-center text-md-left" data-aos="fade-up">
-      <h1>Somos Simplitienda</h1>
-      <h2>
-        <div class="p-3 rounded hero-text m-auto">
-          <span class="">
-
-            Tené tu ecommerce listo en 5 minutos! Vendé, cobrá y enviá con nuestra plataforma 
-          </span>
-
-        </div>
-      </h2>
-      <a href="#about" onclick="navShow()" class="btn-get-started scrollto">Conocé más!</a>
-    </div>
-  </section>
-  <!-- End Hero -->
-
-  <main id="main">
+  
+  <!-- ======= Main home ======= -->
+  <main id="main" class="d-block">
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center
+        align-items-center">
+      <div class="container text-center text-md-left" data-aos="fade-up">
+        <h1>Somos Simplitienda</h1>
+        <h2>
+          <div class="p-3 rounded hero-text m-auto">
+            <span class="">
+  
+              Tené tu ecommerce listo en 5 minutos! Vendé, cobrá y enviá con nuestra plataforma 
+            </span>
+  
+          </div>
+        </h2>
+        <a href="#about" class="btn-get-started scrollto">Conocé más!</a>
+      </div>
+    </section>
+    <!-- End Hero -->
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -277,7 +278,7 @@
           <div class="row">
 
             <div class="col-md-6 col-lg-3 col-md-15 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
-              <a class="scrollto" onclick="navService1()" href="#service1">
+              <a class="scrollto service-anchor" href="#service1">
                 <div class="icon-box icon-box-pink">
                   <div class="icon">
                     <i class="bx bxs-store"></i>
@@ -291,7 +292,7 @@
 
             <div class="col-md-6 col-lg-3 col-md-15 d-flex
                 align-items-stretch mb-5 mb-lg-0"  data-aos="fade-up" data-aos-delay="100">
-              <a class="scrollto" onclick="navService2()" href="#service2">
+              <a class="scrollto service-anchor" href="#service2">
                 <div class="icon-box icon-box-cyan">
                   <div class="icon">
                     <i class="bx bxs-wallet"></i>
@@ -305,7 +306,7 @@
 
             <div class="col-md-6 col-lg-3 col-md-15 d-flex
                 align-items-stretch mb-5 mb-lg-0"  data-aos="fade-up" data-aos-delay="200">
-              <a class="scrollto" onclick="navService3()" href="#service3">
+              <a class="scrollto service-anchor" href="#service3">
                 <div class="icon-box icon-box-magenta">
                   <div class="icon">
                     <i class="bx bx-cycling"></i>
@@ -319,7 +320,7 @@
 
             <div class="col-md-6 col-lg-3 col-md-15 d-flex
                 align-items-stretch mb-5 mb-lg-0"  data-aos="fade-up" data-aos-delay="300">
-              <a class="scrollto" onclick="navService4()" href="#service4">
+              <a class="scrollto service-anchor" href="#service4">
                 <div class="icon-box icon-box-green">
                   <div class="icon">
                     <i class="bx bx-support"></i>
@@ -333,7 +334,7 @@
 
             <div class="col-md-6 col-lg-3 col-md-15 d-flex
                 align-items-stretch mb-5 mb-lg-0"  data-aos="fade-up" data-aos-delay="400">
-              <a class="scrollto" onclick="navService5()" href="#service5">
+              <a class="scrollto service-anchor" href="#service5">
                 <div class="icon-box icon-box-blue">
                   <div class="icon">
                     <i class="bx bxs-save"></i>
@@ -747,6 +748,11 @@
       </div>
     </section>
     <!-- End F.A.Q Section -->
+  </main> 
+  <!-- End #main home-->
+
+  <!-- ======= Main service1 ======= -->
+  <main id="service1-main" class="d-none service-main">
 
     <!-- ======= Services Section ======= -->
 
@@ -760,7 +766,7 @@
     
         <div class="row row-cols-2">
 
-          <div class="col-lg-4"  >
+          <div class="col-lg-4" data-aos="fade-up" >
             <div class="icon-box icon-box-pink">
               <div class="icon icono"><i class="bx bx-happy"></i></div>
               <h3>Simplificate</h3>
@@ -875,7 +881,11 @@
         </div>
       </div>
     </section>
+  </main>
+  <!-- End #main service1-->
 
+  <!-- ======= Main service2 ======= -->
+  <main id="service2-main" class="d-none service-main">
 
     <section id="service2" class="services servicios">
       <div class="container">
@@ -954,6 +964,11 @@
         </div>
       </div>
     </section>
+  </main>
+  <!-- End #main service2-->
+
+  <!-- ======= Main service3 ======= -->
+  <main id="service3-main" class="d-none service-main">
 
     <section id="service3" class="services servicios">
       <div class="container">
@@ -1039,6 +1054,11 @@
         </div>
       </div>
     </section>
+  </main>
+  <!-- End #main service3-->
+
+  <!-- ======= Main service4 ======= -->
+  <main id="service4-main" class="d-none service-main">
 
     <section id="service4" class="services servicios">
       <div class="container">
@@ -1093,6 +1113,11 @@
         </div>
       </div>
     </section>
+  </main>
+  <!-- End #main service4-->
+
+  <!-- ======= Main service5 ======= -->
+  <main id="service5-main" class="d-none service-main">
 
     <section id="service5" class="services servicios">
       <div class="container">
@@ -1166,7 +1191,7 @@
     <!-- End Services Section -->
 
   </main>
-  <!-- End #main -->
+  <!-- End #main service5-->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -1200,23 +1225,23 @@
             <ul>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a onclick="navShow()" class="scrollto" href="#hero">Inicio</a>
+                <a class="scrollto nav-anchor" href="#hero" onclick="handleNavClick()">Inicio</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a onclick="navShow()" class="scrollto" href="#about">Nosotros</a>
+                <a class="scrollto nav-anchor" href="#about" onclick="handleNavClick()">Nosotros</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a onclick="navShow()" class="scrollto" href="#services">Servicios</a>
+                <a class="scrollto nav-anchor" href="#services" onclick="handleNavClick()">Servicios</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a onclick="navShow()" class="scrollto" href="#contact">Contacto</a>
+                <a class="scrollto nav-anchor" href="#contact" onclick="handleNavClick()">Contacto</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a onclick="navShow()" class="scrollto" href="#faq">Preguntas frecuentes</a>
+                <a class="scrollto nav-anchor" href="#faq" onclick="handleNavClick()">Preguntas frecuentes</a>
               </li>
             </ul>
           </div>
@@ -1226,15 +1251,15 @@
             <ul>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a onclick="navShow()" class="scrollto" href="#steps">Por qué elegirnos?</a>
+                <a class="scrollto nav-anchor" href="#steps" onclick="handleNavClick()">Por qué elegirnos?</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a onclick="navShow()" class="scrollto" href="#features">Dónde operamos?</a>
+                <a class="scrollto nav-anchor" href="#features" onclick="handleNavClick()">Dónde operamos?</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a onclick="navShow()" class="scrollto" href="#pricing">Planes</a>
+                <a class="scrollto nav-anchor" href="#pricing" onclick="handleNavClick()">Planes</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>

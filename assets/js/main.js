@@ -295,89 +295,53 @@
 
   });
 
+  /**
+   * Show and hide sections
+   */
+
+
+  window.addEventListener("DOMContentLoaded",function(){
+    
+    document.querySelectorAll("a.service-anchor").forEach(function(element){
+      element.addEventListener("click",function(event){
+        
+        var selector=this.getAttribute("href")+"-main"
+        document.querySelectorAll("main.d-block").forEach(function(element){
+          if(document.querySelector(selector).classList.contains("fadein-opacity")) return
+          element.classList.add("fadeout-opacity")
+          setTimeout((function(){
+            element.classList.remove("d-block")
+            element.classList.add("d-none")
+
+            document.querySelector(selector).classList.add("fadein-opacity")
+          }).bind(element),1000)
+        })
+
+        document.querySelector("#servicesmobile").classList.add("barraactiva")
+        document.querySelector(selector).classList.remove("d-none")
+        document.querySelector(selector).classList.add("d-block")
+
+      })
+    })
+
+  })
+
 })()
 
   /**
    * Show and hide sections
    */
 
-function navShow(){ 
-  document.getElementById("hero").style.display = "block";
-  document.getElementById("hero").classList.add("d-flex");
-  document.getElementById("about").style.display = "block";
-  document.getElementById("steps").style.display = "block";    
-  document.getElementById("features").style.display = "block";    
-  document.getElementById("services").style.display = "block";    
-  document.getElementById("pricing").style.display = "block";    
-  document.getElementById("contact").style.display = "block";    
-  document.getElementById("faq").style.display = "block";      
-  document.getElementById("service1").style.display = "none";
-  document.getElementById("service2").style.display = "none";
-  document.getElementById("service3").style.display = "none";
-  document.getElementById("service4").style.display = "none";
-  document.getElementById("service5").style.display = "none";
-  document.getElementById("servicesmobile").classList.remove("barraactiva");
-}
-
-window.addEventListener('load', () => {
-  navShow()
-  });
-
-  function navServiceGeneral(){ 
-    document.getElementById("hero").style.display = "none";
-    document.getElementById("hero").classList.remove("d-flex");
-    document.getElementById("about").style.display = "none";
-    document.getElementById("steps").style.display = "none";
-    document.getElementById("features").style.display = "none";
-    document.getElementById("services").style.display = "none";
-    document.getElementById("pricing").style.display = "none";
-    document.getElementById("contact").style.display = "none";
-    document.getElementById("faq").style.display = "none";
-    document.getElementById("servicesmobile").classList.add("barraactiva");
-  }
+function handleNavClick(){
+    document.querySelectorAll("main.service-main.d-block").forEach(function(element){
+      element.classList.remove("fadein-opacity")
+      
+      element.classList.remove("d-block")
+        element.classList.add("d-none")
+    })
+    document.querySelector("#servicesmobile").classList.remove("barraactiva")
     
-function navService1(){
-  navServiceGeneral();
-  document.getElementById("service2").style.display = "none";
-  document.getElementById("service3").style.display = "none";
-  document.getElementById("service4").style.display = "none";
-  document.getElementById("service5").style.display = "none";
-  document.getElementById("service1").style.display = "block";
-
-}
-
-function navService2(){
-  navServiceGeneral();
-  document.getElementById("service1").style.display = "none";
-  document.getElementById("service2").style.display = "block";
-  document.getElementById("service3").style.display = "none";
-  document.getElementById("service4").style.display = "none";
-  document.getElementById("service5").style.display = "none";
-}
-
-function navService3(){
-  navServiceGeneral();
-  document.getElementById("service1").style.display = "none";
-  document.getElementById("service2").style.display = "none";
-  document.getElementById("service3").style.display = "block";
-  document.getElementById("service4").style.display = "none";
-  document.getElementById("service5").style.display = "none";
-}
-
-function navService4(){
-  navServiceGeneral();
-  document.getElementById("service1").style.display = "none";
-  document.getElementById("service2").style.display = "none";
-  document.getElementById("service3").style.display = "none";
-  document.getElementById("service4").style.display = "block";
-  document.getElementById("service5").style.display = "none";
-}
-
-function navService5(){
-  navServiceGeneral();
-  document.getElementById("service1").style.display = "none";
-  document.getElementById("service2").style.display = "none";
-  document.getElementById("service3").style.display = "none";
-  document.getElementById("service4").style.display = "none";
-  document.getElementById("service5").style.display = "block";
-}
+    document.querySelector("#main").classList.remove("fadeout-opacity")
+    document.querySelector("#main").classList.remove("d-none")
+    document.querySelector("#main").classList.add("d-block")
+  }

@@ -368,6 +368,7 @@
     
     .navbar-mobile .dropdown>.dropdown-active {
       display: block;
+      overflow: hidden;
     }
     /*--------------------------------------------------------------
 # Hero Section
@@ -1116,6 +1117,157 @@
       color: #fff;
     }
     /*--------------------------------------------------------------
+    # Tabla precios
+    --------------------------------------------------------------*/
+    
+    @media (min-width: 992px) {
+      .col-lg-44 {
+        flex: 0 0 auto;
+        width: 25%
+      }
+    }
+    
+    .mt-5 {
+      margin-top: 3rem !important
+    }
+    
+    @media (min-width: 992px) {
+      .mt-lg-0 {
+        margin-top: 0 !important
+      }
+    }
+    
+    .download-template .features-list {
+      margin-top: 185px
+    }
+    
+    .download-template .features-list ul {
+      background: #f7f9fc;
+      list-style: none;
+      padding: 0
+    }
+    
+    .download-template .features-list li {
+      height: 44px;
+      padding: 0 10px;
+      font-size: 15px;
+      border-top: 1px solid #eef3f9;
+      display: flex;
+      align-items: center;
+      justify-content: space-between
+    }
+    
+    .download-template .features-list li:nth-child(odd) {
+      background: #fdfefe
+    }
+    
+    .download-template .licenses .title {
+      padding: 15px;
+      text-align: center;
+      background: #eef3f9;
+      border-radius: 4px 4px 0 0;
+      border-bottom: 4px solid #fff;
+      height: 80px;
+      overflow: hidden
+    }
+    
+    .download-template .licenses .title h2 {
+      margin: 0 0 5px 0;
+      padding: 0;
+      font-size: 20px;
+      font-weight: 400;
+      color: #111
+    }
+    
+    .download-template .licenses .title span {
+      display: block;
+      color: #555;
+      font-size: 14px;
+      font-style: italic
+    }
+    
+    .download-template .licenses .price {
+      text-align: center;
+      padding: 15px;
+      background: #f7f9fc;
+      height: 105px;
+      overflow: hidden
+    }
+    
+    .download-template .licenses .price h3 {
+      font-size: 36px;
+      margin: 0;
+      padding: 0;
+      color: #023b6d;
+      font-weight: 500
+    }
+    
+    .download-template .licenses .price h3 sup {
+      margin-right: -8px;
+      font-size: 24px
+    }
+    
+    .download-template .licenses .price span {
+      display: block;
+      color: #888;
+      font-size: 13px;
+      font-style: italic;
+      line-height: 16px
+    }
+    
+    .download-template .licenses .features {
+      background: #f7f9fc
+    }
+    
+    .download-template .licenses .features ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center
+    }
+    
+    .download-template .licenses .features li {
+      padding: 10px;
+      font-size: 15px;
+      border-top: 1px solid #eef3f9;
+      font-weight: 600
+    }
+    
+    @media (min-width: 1200px) {
+      .download-template .licenses .features li {
+        height: 44px;
+        font-weight: 400
+      }
+      .download-template .licenses .features li:nth-child(odd) {
+        background: #fdfefe
+      }
+    }
+    
+    .download-template .licenses .features li .feature-title {
+      padding: 5px 0;
+      font-size: 14px;
+      font-weight: 400
+    }
+    
+    .download-template .licenses .features li .feature-title s {
+      color: #999
+    }
+    
+    .download-template .licenses .features .icon {
+      width: 20px;
+      height: 20px
+    }
+    
+    .download-template .licenses .features .icon-check {
+      color: #00c560;
+      font-size: 25px;
+    }
+    
+    .download-template .licenses .features .icon-close {
+      color: red;
+      font-size: 25px;
+    }
+    /*--------------------------------------------------------------
 # Adicionales y modificaciones
 --------------------------------------------------------------*/
     
@@ -1309,154 +1461,21 @@
     #servicesmobile.barraactiva{
       color:#db6400;
     }
-    /*--------------------------------------------------------------
-# Tabla precios
---------------------------------------------------------------*/
-    
-    @media (min-width: 992px) {
-      .col-lg-44 {
-        flex: 0 0 auto;
-        width: 25%
-      }
+
+    #main{
+      
+      transition: opacity 1s; 
     }
-    
-    .mt-5 {
-      margin-top: 3rem !important
+    .service-main{
+      opacity:0;
+      transition: opacity 1s; 
     }
-    
-    @media (min-width: 992px) {
-      .mt-lg-0 {
-        margin-top: 0 !important
-      }
+
+    .fadein-opacity{
+      opacity: 1;
+      transition: opacity 1s;
     }
-    
-    .download-template .features-list {
-      margin-top: 185px
-    }
-    
-    .download-template .features-list ul {
-      background: #f7f9fc;
-      list-style: none;
-      padding: 0
-    }
-    
-    .download-template .features-list li {
-      height: 44px;
-      padding: 0 10px;
-      font-size: 15px;
-      border-top: 1px solid #eef3f9;
-      display: flex;
-      align-items: center;
-      justify-content: space-between
-    }
-    
-    .download-template .features-list li:nth-child(odd) {
-      background: #fdfefe
-    }
-    
-    .download-template .licenses .title {
-      padding: 15px;
-      text-align: center;
-      background: #eef3f9;
-      border-radius: 4px 4px 0 0;
-      border-bottom: 4px solid #fff;
-      height: 80px;
-      overflow: hidden
-    }
-    
-    .download-template .licenses .title h2 {
-      margin: 0 0 5px 0;
-      padding: 0;
-      font-size: 20px;
-      font-weight: 400;
-      color: #111
-    }
-    
-    .download-template .licenses .title span {
-      display: block;
-      color: #555;
-      font-size: 14px;
-      font-style: italic
-    }
-    
-    .download-template .licenses .price {
-      text-align: center;
-      padding: 15px;
-      background: #f7f9fc;
-      height: 105px;
-      overflow: hidden
-    }
-    
-    .download-template .licenses .price h3 {
-      font-size: 36px;
-      margin: 0;
-      padding: 0;
-      color: #023b6d;
-      font-weight: 500
-    }
-    
-    .download-template .licenses .price h3 sup {
-      margin-right: -8px;
-      font-size: 24px
-    }
-    
-    .download-template .licenses .price span {
-      display: block;
-      color: #888;
-      font-size: 13px;
-      font-style: italic;
-      line-height: 16px
-    }
-    
-    .download-template .licenses .features {
-      background: #f7f9fc
-    }
-    
-    .download-template .licenses .features ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: center
-    }
-    
-    .download-template .licenses .features li {
-      padding: 10px;
-      font-size: 15px;
-      border-top: 1px solid #eef3f9;
-      font-weight: 600
-    }
-    
-    @media (min-width: 1200px) {
-      .download-template .licenses .features li {
-        height: 44px;
-        font-weight: 400
-      }
-      .download-template .licenses .features li:nth-child(odd) {
-        background: #fdfefe
-      }
-    }
-    
-    .download-template .licenses .features li .feature-title {
-      padding: 5px 0;
-      font-size: 14px;
-      font-weight: 400
-    }
-    
-    .download-template .licenses .features li .feature-title s {
-      color: #999
-    }
-    
-    .download-template .licenses .features .icon {
-      width: 20px;
-      height: 20px
-    }
-    
-    .download-template .licenses .features .icon-check {
-      color: #00c560;
-      font-size: 25px;
-    }
-    
-    .download-template .licenses .features .icon-close {
-      color: red;
-      font-size: 25px;
+    .fadeout-opacity{
+      opacity: 0;
+      transition: opacity 1s;
     }
