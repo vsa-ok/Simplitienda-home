@@ -1124,6 +1124,7 @@
       border: 1px solid #000;
       border-radius: 10px;
       margin: 15px;
+      display: -webkit-inline-box;
     }
     
     a#ingreso {
@@ -1133,6 +1134,7 @@
       border-radius: 10px;
       font-size: 18px;
       margin: 15px;
+      display: -webkit-inline-box;
     }
     
     a#ingreso:hover {
@@ -1278,13 +1280,10 @@
       background: #141c5cbf;
       max-width: 42em;
     }
-    #services{
-      padding-top: 0px;
-    }
 
     .dropdown {
       display: grid; 
-      grid-template-columns: 1fr 1fr 1fr; 
+      grid-template-columns: 1fr; 
       grid-template-areas: 
       "servicesmobile chevronmobile"
       "dropdownmobile dropdownmobile"; 
@@ -1292,7 +1291,24 @@
     .servicesmobile { grid-area: servicesmobile; }
     .chevronmobile { grid-area: chevronmobile; }
     .dropdownmobile { grid-area: dropdownmobile; }
+    .navbar{
+      margin-left: 20px;
+    }
 
+    #servicesmobile.barraactiva:before {
+      content: "";
+      position: absolute;
+      height: 2px;
+      bottom: 3px;
+      background-color: #11515e;
+      transition: all 0.3s ease-in-out 0s;
+      visibility: visible;
+      width: 100%;
+      left: 0;
+    }
+    #servicesmobile.barraactiva{
+      color:#db6400;
+    }
     /*--------------------------------------------------------------
 # Tabla precios
 --------------------------------------------------------------*/
