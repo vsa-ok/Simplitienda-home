@@ -310,6 +310,9 @@
           if(document.querySelector(selector).classList.contains("fadein-opacity")) return
           element.classList.add("fadeout-opacity")
           setTimeout((function(){
+            document.querySelectorAll(".nav-link.scrollto.nav-anchor.active").forEach(function(activeAnchor){
+              activeAnchor.classList.remove("active")
+            })
             element.classList.remove("d-block")
             element.classList.add("d-none")
             element.classList.remove("fadeout-opacity")
@@ -335,13 +338,15 @@
    * Show and hide sections
    */
 
-function handleNavClick(){
-    document.querySelectorAll("main.service-main.d-block").forEach(function(element){
+function handleNavClick(clickedElement){
+    var servicesActive=document.querySelectorAll("main.service-main.d-block")
+    servicesActive.forEach(function(element){
       element.classList.remove("fadein-opacity")
       
       element.classList.remove("d-block")
         element.classList.add("d-none")
     })
+    if(servicesActive.length>0&&clickedElement.getAttribute("href")==="#hero") clickedElement.classList.add("active")
     document.querySelector("#servicesmobile").classList.remove("barraactiva")
     
     document.querySelector("#main").classList.remove("fadeout-opacity")
