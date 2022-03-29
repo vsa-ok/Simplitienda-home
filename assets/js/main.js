@@ -312,6 +312,9 @@
           setTimeout((function(){
             element.classList.remove("d-block")
             element.classList.add("d-none")
+            element.classList.remove("fadeout-opacity")
+            
+            element.classList.remove("fadein-opacity")
 
             document.querySelector(selector).classList.add("fadein-opacity")
           }).bind(element),1000)
