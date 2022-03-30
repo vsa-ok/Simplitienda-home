@@ -300,48 +300,67 @@
    */
 
 
-  window.addEventListener("DOMContentLoaded",function(){
-    
-    document.querySelectorAll("a.service-anchor").forEach(function(element){
-      element.addEventListener("click",function(event){
-        
-        var aSectionAll=document.querySelectorAll("#navbar a.nav-id")
-        aSectionAll.forEach(function(anchor){
-          if(anchor.classList.contains("active")){var activa=anchor.getAttribute("href")
-            if(activa==="#hero"){document.querySelector("#empty").classList.add("change")}
-            else{{document.querySelector("#empty").classList.remove("change")}}}
-          if(anchor.classList.contains("active")){}else{var section=anchor.getAttribute("href")
-          document.querySelector("#empty").classList.remove("d-none")
-          document.querySelector(section).classList.add("d-none")}})
+  window.addEventListener("DOMContentLoaded", function () {
 
-        event.preventDefault()
-        var selector=this.getAttribute("href")+"-main"
-        document.querySelectorAll("main.d-block").forEach(function(element){
-          if(document.querySelector(selector).classList.contains("fadein-opacity")) return
-          element.classList.add("fadeout-opacity")
-          setTimeout((function(){
-            document.querySelectorAll(".nav-link.scrollto.nav-anchor.active").forEach(function(activeAnchor){
-              activeAnchor.classList.remove("active")
-            })
-            element.classList.remove("d-block")
-            element.classList.add("d-none")
-            element.classList.remove("fadeout-opacity")            
-            element.classList.remove("fadein-opacity")
-            document.querySelector(selector).classList.add("fadein-opacity")
-          }).bind(element),1000)
-        })
-        setTimeout(function(){
+    document.querySelectorAll("a.service-anchor").forEach(function (element) {
+      element.addEventListener("click", function (event) {
+        event.preventDefault();
+        var aSectionAll = document.querySelectorAll("#navbar a.nav-id");
+        aSectionAll.forEach(function (anchor) {          
+          var activa = anchor.getAttribute("href");
+          if (anchor.classList.contains("active")) {
+            if (activa === "#hero") {
+              document.querySelector("#empty").classList.add("change");
+            } else {
+              {
+                document.querySelector("#empty").classList.remove("change");
+              }
+            }
+          }else {
+            document.querySelector("#empty").classList.remove("d-none");
+            document.querySelector(activa).classList.add("d-none");
+          }
+        });
 
-          document.querySelector("#servicesmobile").classList.add("barraactiva")
-          document.querySelector(selector).classList.remove("d-none")
-          document.querySelector(selector).classList.add("d-block")
-        },900)
+        var selector = this.getAttribute("href") + "-main";
+        document.querySelectorAll("main.d-block").forEach(function (element) {
+          if (
+            document
+              .querySelector(selector)
+              .classList.contains("fadein-opacity")
+          )
+            return;
+          element.classList.add("fadeout-opacity");
 
-        window.scrollTo(0,0)
-      })
-    })
+          setTimeout(
+            function () {
+              document
+                .querySelectorAll(".nav-link.scrollto.nav-anchor.active")
+                .forEach(function (activeAnchor) {
+                  activeAnchor.classList.remove("active");
+                });
+              element.classList.remove("d-block");
+              element.classList.add("d-none");
+              element.classList.remove("fadeout-opacity");
+              element.classList.remove("fadein-opacity");
+              document.querySelector(selector).classList.add("fadein-opacity");
+            }.bind(element),
+            1000
+          );
+        });
 
-  })
+        setTimeout(function () {
+          document
+            .querySelector("#servicesmobile")
+            .classList.add("barraactiva");
+          document.querySelector(selector).classList.remove("d-none");
+          document.querySelector(selector).classList.add("d-block");
+        }, 900);
+
+        window.scrollTo(0, 0);
+      });
+    });
+  });
 
 })()
 
@@ -354,7 +373,8 @@ function handleNavClick(clickedElement){
     aSectionAll.forEach(function(anchor){
       var section=anchor.getAttribute("href")
       document.querySelector("#empty").classList.add("d-none")
-      document.querySelector(section).classList.remove("d-none")})
+      document.querySelector(section).classList.remove("d-none")
+    })
     document.querySelector("#hero").classList.remove("d-none")
     var servicesActive=document.querySelectorAll("main.service-main.d-block")
     servicesActive.forEach(function(element){
