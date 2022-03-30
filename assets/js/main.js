@@ -305,6 +305,15 @@
     document.querySelectorAll("a.service-anchor").forEach(function(element){
       element.addEventListener("click",function(event){
         
+        var aSectionAll=document.querySelectorAll("#navbar a.nav-id")
+        aSectionAll.forEach(function(anchor){
+          if(anchor.classList.contains("active")){var activa=anchor.getAttribute("href")
+            if(activa==="#hero"){document.querySelector("#empty").classList.add("change")}
+            else{{document.querySelector("#empty").classList.remove("change")}}}
+          if(anchor.classList.contains("active")){}else{var section=anchor.getAttribute("href")
+          document.querySelector("#empty").classList.remove("d-none")
+          document.querySelector(section).classList.add("d-none")}})
+
         var selector=this.getAttribute("href")+"-main"
         document.querySelectorAll("main.d-block").forEach(function(element){
           if(document.querySelector(selector).classList.contains("fadein-opacity")) return
@@ -339,6 +348,12 @@
    */
 
 function handleNavClick(clickedElement){
+    var aSectionAll=document.querySelectorAll("#navbar a.nav-id")
+    aSectionAll.forEach(function(anchor){
+      var section=anchor.getAttribute("href")
+      document.querySelector("#empty").classList.add("d-none")
+      document.querySelector(section).classList.remove("d-none")})
+    document.querySelector("#hero").classList.remove("d-none")
     var servicesActive=document.querySelectorAll("main.service-main.d-block")
     servicesActive.forEach(function(element){
       element.classList.remove("fadein-opacity")

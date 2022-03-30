@@ -50,42 +50,42 @@
       </div>
       <!-- .navbar -->
       <nav id="navbar" class="navbar">
-        <ul id="navbarmobile">
+        <ul>
           <li>
-            <a class="nav-link scrollto nav-anchor" href="#hero"onclick="handleNavClick(this)">Inicio</a>
+            <a class="nav-link nav-id scrollto nav-anchor" href="#hero"onclick="handleNavClick(this)">Inicio</a>
           </li>
           <li>
-            <a class="nav-link scrollto nav-anchor" href="#about"onclick="handleNavClick(this)">Nosotros</a>
+            <a class="nav-link nav-id scrollto nav-anchor" href="#about"onclick="handleNavClick(this)">Nosotros</a>
           </li>
           <li>
-            <a class="nav-link scrollto nav-anchor" href="#steps" onclick="handleNavClick(this)">Por qué elegirnos?</a>
+            <a class="nav-link nav-id scrollto nav-anchor" href="#steps" onclick="handleNavClick(this)">Por qué elegirnos?</a>
           </li>
           <li>
-            <a class="nav-link scrollto nav-anchor" href="#features"onclick="handleNavClick(this)">Dónde operamos?</a>
+            <a class="nav-link nav-id scrollto nav-anchor" href="#features"onclick="handleNavClick(this)">Dónde operamos?</a>
           </li>
           <li id="dropdown" class="dropdown">
-            <a  id="servicesmobile" class="nav-link scrollto nav-anchor servicesmobile" href="#services"onclick="handleNavClick(this)">
+            <a  id="servicesmobile" class="nav-link nav-id scrollto nav-anchor servicesmobile" href="#services"onclick="handleNavClick(this)">
               <span>Servicios</span>
             </a>
             <a id="chevronmobile" class="chevronmobile">
               <i class="bi bi-chevron-down"></i>
             </a>
             <ul id="dropdownmobile" class="dropdownmobile">
-              <li><a class="service-anchor" href="#service1">Tienda virtual</a></li>
-              <li><a class="service-anchor" href="#service2">Cobranzas</a></li>
-              <li><a class="service-anchor" href="#service3">Envíos</a></li>
-              <li><a class="service-anchor" href="#service4">Contact Center</a></li>
-              <li><a class="service-anchor" href="#service5">Fulfillment</a></li>
+              <li><a class="scrollto service-anchor" href="#service1">Tienda virtual</a></li>
+              <li><a class="scrollto service-anchor" href="#service2">Cobranzas</a></li>
+              <li><a class="scrollto service-anchor" href="#service3">Envíos</a></li>
+              <li><a class="scrollto service-anchor" href="#service4">Contact Center</a></li>
+              <li><a class="scrollto service-anchor" href="#service5">Fulfillment</a></li>
             </ul>
           </li>
           <li>
-            <a class="nav-link scrollto nav-anchor" href="#pricing"onclick="handleNavClick(this)">Planes</a>
+            <a class="nav-link nav-id scrollto nav-anchor" href="#pricing"onclick="handleNavClick(this)">Planes</a>
           </li>
           <li>
-            <a class="nav-link scrollto nav-anchor" href="#contact"onclick="handleNavClick(this)">Contacto</a>
+            <a class="nav-link nav-id scrollto nav-anchor" href="#contact"onclick="handleNavClick(this)">Contacto</a>
           </li>
           <li>
-            <a class="nav-link scrollto nav-anchor" href="#faq"onclick="handleNavClick(this)">FAQ</a>
+            <a class="nav-link nav-id scrollto nav-anchor" href="#faq"onclick="handleNavClick(this)">FAQ</a>
           </li>
           <li>
             <a class="nav-link" id="registro" href="https://simplitienda.com.ar/register">Registrate</a>
@@ -104,6 +104,12 @@
   
   <!-- ======= Main home ======= -->
   <main id="main" class="d-block">
+
+    <!-- ======= Empty Section ======= -->
+    <section id="empty" class="d-none">
+    </section>
+    <!-- End Empty -->
+    
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center
         align-items-center">

@@ -1479,3 +1479,10 @@
       opacity: 0;
       transition: opacity 1s;
     }
+    #empty{
+      min-height: 0;
+      margin-top: 20px;
+    }
+    #empty.change{
+      margin-top: -50px;
+    }
