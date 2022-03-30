@@ -314,6 +314,7 @@
           document.querySelector("#empty").classList.remove("d-none")
           document.querySelector(section).classList.add("d-none")}})
 
+        event.preventDefault()
         var selector=this.getAttribute("href")+"-main"
         document.querySelectorAll("main.d-block").forEach(function(element){
           if(document.querySelector(selector).classList.contains("fadein-opacity")) return
@@ -324,18 +325,19 @@
             })
             element.classList.remove("d-block")
             element.classList.add("d-none")
-            element.classList.remove("fadeout-opacity")
-            
+            element.classList.remove("fadeout-opacity")            
             element.classList.remove("fadein-opacity")
-
             document.querySelector(selector).classList.add("fadein-opacity")
           }).bind(element),1000)
         })
+        setTimeout(function(){
 
-        document.querySelector("#servicesmobile").classList.add("barraactiva")
-        document.querySelector(selector).classList.remove("d-none")
-        document.querySelector(selector).classList.add("d-block")
+          document.querySelector("#servicesmobile").classList.add("barraactiva")
+          document.querySelector(selector).classList.remove("d-none")
+          document.querySelector(selector).classList.add("d-block")
+        },900)
 
+        window.scrollTo(0,0)
       })
     })
 
