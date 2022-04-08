@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tarifas x partido</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="crossorigin=""
+      />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="crossorigin=""></script>
+    <style>
+      body { margin: 0; padding: 0; }
+      #map { position: absolute; top: 0; bottom: 0; width: 100%; height: 100%; z-index: -1;}
+      body select{
+        margin-left: 100px;
+        margin-top: 20px;
+      }
+      tr{
+        margin-left: 10px;
+        margin-top: 80px;
+        background-color: white;
+        padding: 0;
+        flex-direction:column;
+        display: flex;
+        border: solid;
+      }
+      td{
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <select name="dropdown" id="partidos">
+      <option value="0">Seleccionar partido</option>
+      <option id="st1" value="st1">Morón</option>
+      <option id="st2" value="st2">Tres de Febrero</option>
+      <option id="st3" value="st3">Hurlingham</option>
+    </select>
+    <table>
+      <tr>
+        <td style="background-color: green;">Tarifa 1</td>
+        <td style="background-color: yellow;">Tarifa 2</td>
+        <td style="background-color: orange;">Tarifa 3</td>
+        <td style="background-color: red;">Tarifa 4</td>
+      </tr>
+    </table>
+    <div id="map">
+    </div>
+
+    <script>
+
+      var map = L.map('map').setView([-34.6,-58.6], 11);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+
+      var moron = [
+        [-34.607941,-58.592788],
+        [-34.588601,-58.616500],
+        [-34.603898,-58.619718],
+        [-34.606135,-58.618205],
+        [-34.612489,-58.619576],
+        [-34.623774,-58.618636],
+        [-34.633151,-58.621808],
+        [-34.631612,-58.653486],
+        [-34.685988,-58.667381],
+        [-34.692348,-58.661008],
+        [-34.704543,-58.640974],
+        [-34.700621,-58.639379],
+        [-34.649398,-58.580707],
+        [-34.643170,-58.581876],
+        [-34.641345,-58.570261],
+        [-34.638366,-58.570916],
+        [-34.637990,-58.564377],
+        [-34.634703,-58.556107],
+        [-34.625903,-58.566712],
+        [-34.628744,-58.572236],
+        [-34.606092,-58.588799],
+        [-34.607941,-58.592788],
+      ];
+
+      var tresDeFebrero= [
+        [-34.546574,-58.619897],
+        [-34.546764,-58.626383],
+        [-34.549630,-58.630578],
+        [-34.552094,-58.630772],
+        [-34.555880,-58.639578],
+        [-34.562968,-58.646336],
+        [-34.607961,-58.592765],
+        [-34.606092,-58.588799],
+        [-34.628744,-58.572236],
+        [-34.625903,-58.566712],
+        [-34.654397,-58.529225],
+        [-34.615966,-58.531465],
+        [-34.597575,-58.522977],
+        [-34.591405,-58.562314],
+        [-34.546574,-58.619897],
+      ];
+      var hurlingham=[
+        [-34.566309,-58.642231],
+        [-34.562930,-58.646345],
+        [-34.566189,-58.658379],
+        [-34.573555,-58.667466],
+        [-34.572793,-58.670856],
+        [-34.577865,-58.674897],
+        [-34.581411,-58.681673],
+        [-34.588221,-58.684543],
+        [-34.589000,-58.689820],
+        [-34.590859,-58.690186],
+        [-34.591708,-58.693781],
+        [-34.593742,-58.693934],
+        [-34.603234,-58.682222],
+        [-34.605172,-58.684382],
+        [-34.631612,-58.653486],
+        [-34.633151,-58.621808],
+        [-34.623774,-58.618636],
+        [-34.612489,-58.619576],
+        [-34.606135,-58.618205],
+        [-34.603898,-58.619718],
+        [-34.588705,-58.616028],
+        [-34.566309,-58.642231],
+      ];
+
+      var polygon = L.polygon(moron, {color: 'red'}).addTo(map);
+      var polygon = L.polygon(tresDeFebrero, {color: 'red'}).addTo(map);
+      var polygon = L.polygon(hurlingham, {color: 'red'}).addTo(map);
+
+    </script>
+  </body>
+</html>
