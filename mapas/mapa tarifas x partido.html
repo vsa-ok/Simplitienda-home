@@ -33,11 +33,11 @@
     </style>
   </head>
   <body>
-    <select name="dropdown" id="partidos">
+    <select id="partidos" onchange="changeColor()">
       <option value="0">Seleccionar partido</option>
-      <option id="st1" value="st1">Morón</option>
-      <option id="st2" value="st2">Tres de Febrero</option>
-      <option id="st3" value="st3">Hurlingham</option>
+      <option id="moron">Morón</option>
+      <option id="st2">Tres de Febrero</option>
+      <option id="st3">Hurlingham</option>
     </select>
     <table>
       <tr>
@@ -58,7 +58,7 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
 
-      var moron = [
+      var moron= [
         [-34.607941,-58.592788],
         [-34.588601,-58.616500],
         [-34.603898,-58.619718],
@@ -125,9 +125,16 @@
         [-34.566309,-58.642231],
       ];
 
-      var polygon = L.polygon(moron, {color: 'red'}).addTo(map);
-      var polygon = L.polygon(tresDeFebrero, {color: 'red'}).addTo(map);
-      var polygon = L.polygon(hurlingham, {color: 'red'}).addTo(map);
+      var moron = L.polygon(moron).addTo(map);
+      var tresDeFebrero = L.polygon(tresDeFebrero).addTo(map);
+      var hurlingham = L.polygon(hurlingham).addTo(map);
+
+      function changeColor(){
+        var mylist=document.getElementById("partidos");
+        if (mylist.options[partidos.selectedIndex].id==="moron") {
+          moron.setStyle({color:"green"})
+        }
+      }
 
     </script>
   </body>
