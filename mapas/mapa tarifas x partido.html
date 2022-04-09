@@ -36,8 +36,8 @@
     <select id="partidos" onchange="changeColor()">
       <option value="0">Seleccionar partido</option>
       <option id="moron">Morón</option>
-      <option id="st2">Tres de Febrero</option>
-      <option id="st3">Hurlingham</option>
+      <option id="tresDeFebrero">Tres de Febrero</option>
+      <option id="hurlingham">Hurlingham</option>
     </select>
     <table>
       <tr>
@@ -103,7 +103,12 @@
         [-34.597575,-58.522977],
         [-34.591405,-58.562314],
         [-34.546574,-58.619897],
+      ],rates:[
+        ["moron",3],
+        ["hurlingham",4],
+        ["tresDeFebrero",2],
       ]};
+      
       var hurlingham={coord:[
         [-34.566309,-58.642231],
         [-34.562930,-58.646345],
@@ -127,25 +132,25 @@
         [-34.603898,-58.619718],
         [-34.588705,-58.616028],
         [-34.566309,-58.642231],
+      ],rates:[
+        ["moron",2],
+        ["hurlingham",1],
+        ["tresDeFebrero",4],
       ]};
 
-      L.polygon(moron.coord).addTo(map);
-      L.polygon(tresDeFebrero.coord).addTo(map);
-      L.polygon(hurlingham.coord).addTo(map);
+      var colorRate1="green";
+      var colorRate2="yellow";
+      var colorRate3="orange";
+      var colorRate4="red";
       
-      for (const iterator of moron.rates) {
-        console.log(iterator[0]);
-        // L.polygon(iterator[0].coord).addTo(map)
-      }
-      
-      var colorRate1="green"
-
       var mylist=document.getElementById("partidos");
-
+      
       function changeColor(){
         var seleccionado= mylist.options[partidos.selectedIndex].id;
         console.log(seleccionado);
-        L.polygon(moron.coord,{color:colorRate1}).addTo(map);
+        for (const iterator of eval(seleccionado).rates) {
+          L.polygon(eval(iterator[0]).coord,{color:eval("colorRate"+iterator[1])}).addTo(map)
+        }
       }
 
     </script>
