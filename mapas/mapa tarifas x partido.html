@@ -58,7 +58,7 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
 
-      var moron= [
+      var moron= {coord:[
         [-34.607941,-58.592788],
         [-34.588601,-58.616500],
         [-34.603898,-58.619718],
@@ -81,9 +81,13 @@
         [-34.628744,-58.572236],
         [-34.606092,-58.588799],
         [-34.607941,-58.592788],
-      ];
+      ],rates:[
+        ["moron",1],
+        ["hurlingham",2],
+        ["tresDeFebrero",3],
+      ]};
 
-      var tresDeFebrero= [
+      var tresDeFebrero= {coord:[
         [-34.546574,-58.619897],
         [-34.546764,-58.626383],
         [-34.549630,-58.630578],
@@ -99,8 +103,8 @@
         [-34.597575,-58.522977],
         [-34.591405,-58.562314],
         [-34.546574,-58.619897],
-      ];
-      var hurlingham=[
+      ]};
+      var hurlingham={coord:[
         [-34.566309,-58.642231],
         [-34.562930,-58.646345],
         [-34.566189,-58.658379],
@@ -123,17 +127,25 @@
         [-34.603898,-58.619718],
         [-34.588705,-58.616028],
         [-34.566309,-58.642231],
-      ];
+      ]};
 
-      var moron = L.polygon(moron).addTo(map);
-      var tresDeFebrero = L.polygon(tresDeFebrero).addTo(map);
-      var hurlingham = L.polygon(hurlingham).addTo(map);
+      L.polygon(moron.coord).addTo(map);
+      L.polygon(tresDeFebrero.coord).addTo(map);
+      L.polygon(hurlingham.coord).addTo(map);
+      
+      for (const iterator of moron.rates) {
+        console.log(iterator[0]);
+        // L.polygon(iterator[0].coord).addTo(map)
+      }
+      
+      var colorRate1="green"
+
+      var mylist=document.getElementById("partidos");
 
       function changeColor(){
-        var mylist=document.getElementById("partidos");
-        if (mylist.options[partidos.selectedIndex].id==="moron") {
-          moron.setStyle({color:"green"})
-        }
+        var seleccionado= mylist.options[partidos.selectedIndex].id;
+        console.log(seleccionado);
+        L.polygon(moron.coord,{color:colorRate1}).addTo(map);
       }
 
     </script>
